@@ -15,8 +15,10 @@ namespace TurtleSim_2000
     public class Game1 : Microsoft.Xna.Framework.Game
     {
 
-        String GameInfo = "TurtleSim 2000 (Build 017) Alpha 0.25";
+        //just for reference.  not really important
+        String GameInfo = "TurtleSim 2000 (Build 019) Alpha 0.25";
 
+        //fonts
         SpriteFont debugfont;
         SpriteFont debugfontsmall;
         SpriteFont speechfont;
@@ -71,7 +73,7 @@ namespace TurtleSim_2000
         bool reversescaler = false;
 
         
-
+        //engine bool
         bool bStart = true;
         bool bSleep = false;
         bool bActive = false;
@@ -88,11 +90,14 @@ namespace TurtleSim_2000
         bool bWin = false;
         bool bClicked = false;
         bool bclicking = false;
-        bool bGamePad = true;
+        bool bGamePad = false;       //tells the game either Gamepad or Mouse/keyboard
         bool DpadDown = false;
         bool DpadUp = false;
         bool DpadLeft = false;
         bool DpadRight = false;
+        bool bMoveChar1 = false;    //determins if we should move the chara
+        bool bMoveChar2 = false;    //determins if we should move the chara
+        bool fixfirstscripterror = true;  //helps patch up the "nothing to say" error at first event.
 
         //GAME STORY SWITCHES
         bool sMetEmi = false;
@@ -121,8 +126,8 @@ namespace TurtleSim_2000
 
         string[,] script = new string[101,500];
         string dialouge = "nothing to say";
-        int scriptreaderx = 1;
-        int scriptreadery = 1;
+        int scriptreaderx = 0;
+        int scriptreadery = 0;
 
 
         //animation related
@@ -134,7 +139,11 @@ namespace TurtleSim_2000
         //Texture2D bgmanager;
 
         //animation frame ints
-        int AbuttonFrame = 0;
+        int AbuttonFrame = 0;   //Moves the "A" button up/down
+        int charamove1 = 0;     //used to move chara around
+        int charamove2 = 0;     //used to move chara around
+        string charadir1;      //0 = null; 1 = left; 2 = right; 3 = offleft; 4 = offrigtht.
+        string charadir2;      //0 = null; 1 = left; 2 = right; 3 = offleft; 4 = offrigtht.
 
 
         //just for testing and messing
@@ -264,15 +273,34 @@ namespace TurtleSim_2000
 
             }
 
-            //cocks += 1;
-            if (cocks >= 20)
+            //charamover logic
+            if (bMoveChar1 == true)
             {
-                HP = Rando.Next(100);
-                Energy = Rando.Next(100);
-                Fat = Rando.Next(100);
-                social = Rando.Next(100);
-                cocks = 0;
+                if (frames >= 0)
+                {
+                    if (charadir1 == "right")
+                    {
+                        if (charamove1 < 180) charamove1 += 4;
+                        else bMoveChar1 = false;
+                    }
+                    if (charadir1 == "left")
+                    {
+                        if (charamove1 > -180) charamove1 -= 4;
+                        else bMoveChar1 = false;
+                    }
+                    if (charadir1 == "offright")
+                    {
+                        if (charamove1 < 600) charamove1 += 9;
+                        else bMoveChar1 = false;
+                    }
+                    if (charadir1 == "offleft")
+                    {
+                        if (charamove1 > -600) charamove1 -= 9;
+                        else bMoveChar1 = false;
+                    }
+                }
             }
+
 
             if (frames >= 5)
             {
@@ -498,8 +526,8 @@ namespace TurtleSim_2000
             {
                 if (actionmenuscroller == -300)
                 {
-                    if (chara1 != null) spriteBatch.Draw(charamanager1, new Rectangle(200, -120, charamanager1.Width, charamanager1.Height), Color.White);
-                    if (chara2 != null) spriteBatch.Draw(charamanager2, new Rectangle(420, -120, charamanager2.Width, charamanager2.Height), Color.White);
+                    if (chara1 != null) spriteBatch.Draw(charamanager1, new Rectangle(200 + charamove1, -120, charamanager1.Width, charamanager1.Height), Color.White);
+                    if (chara2 != null) spriteBatch.Draw(charamanager2, new Rectangle(420 + charamove2, -120, charamanager2.Width, charamanager2.Height), Color.White);
                     spriteBatch.Draw(messagebox2, new Rectangle(0, 355, 797, 125), Color.White);
                     spriteBatch.DrawString(speechfont, dialouge, new Vector2(30, 360), Color.White);
                     spriteBatch.Draw(ButtonA, new Rectangle(750, 440 + AbuttonFrame, 24, 24), Color.White);
@@ -1010,6 +1038,7 @@ namespace TurtleSim_2000
                 while (MasterScript.Read(scriptreaderx, 0) != ename)
                 {
                     scriptreaderx++;
+                   
                     if (scriptreaderx >= 100)
                     {
                         ErrorReason = "There is no script found for '" + ename + "' Please check spelling or \nif the file is missing.";
@@ -1028,6 +1057,7 @@ namespace TurtleSim_2000
             //var mouseState = Mouse.GetState();
             if (bClicked == true)
             {
+                //fixfirstscripterror = false;
                 if (MasterScript.Read(scriptreaderx, scriptreadery + 1) != null)
                 {
                     scriptreadery++;
@@ -1051,6 +1081,8 @@ namespace TurtleSim_2000
                     {
                         chara1 = null;
                         chara2 = null;
+                        charamove1 = 0;
+                        charamove2 = 0;
                         scriptreadery++;
                     }
                     if (MasterScript.Read(scriptreaderx, scriptreadery) == "bgchange")
@@ -1068,6 +1100,13 @@ namespace TurtleSim_2000
                         scriptreadery++;
                         SetMusic = MasterScript.Read(scriptreaderx, scriptreadery);
                         songstart = false;
+                        scriptreadery++;
+                    }
+                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent move 1")
+                    {
+                        scriptreadery++;
+                        charadir1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                        bMoveChar1 = true;
                         scriptreadery++;
                     }
                     if (MasterScript.Read(scriptreaderx, scriptreadery) != null) dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
@@ -1230,11 +1269,12 @@ namespace TurtleSim_2000
                 addhp(-8);
                 addfat(-3);
                 addsocial(2);
-                if (R == 4)
+                //Meet Emi for first time triggered event.
+                if (Time >= 600 & Time <= 900)      //time between 6am to 9am is when you will meet emi
                 {
-                    if (sMetEmi == false)
+                    if (sMetEmi == false)           //if you have already met her, you cannot get it again.
                     {
-                        eventname = "walk_meetemi";
+                        eventname = "eat_emi";
                         addsocial(1);
                         addtime(100);
                         addhp(-2);
