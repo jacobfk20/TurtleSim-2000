@@ -1,0 +1,139 @@
+3758e836c46a4acea8e1c017172a0a91
+0
+TurtleBox
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\
+130134699180000000
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\GameThumbnail.png
+2013-04-18T06:28:26.6972097Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\TurtleSim 2000.exe
+2013-05-25T20:38:54.6957129Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_cafeteria.xnb
+2013-05-19T20:45:07.8538599Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_classroomart.xnb
+2013-05-19T20:44:37.8751453Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_courtyard.xnb
+2013-05-19T20:44:39.1362174Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormbathroom.xnb
+2013-05-19T20:44:40.8653163Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormemi.xnb
+2013-05-19T20:44:42.5874148Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormext_start.xnb
+2013-05-19T20:44:43.7934838Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormkenji.xnb
+2013-05-19T20:44:45.3825747Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_forest1.xnb
+2013-05-19T20:44:46.6186454Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_gate.xnb
+2013-05-19T20:44:47.6537046Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_angry.xnb
+2013-05-19T20:44:50.7388810Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_angry_up.xnb
+2013-05-19T20:44:51.2799120Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_awayfrown.xnb
+2013-05-19T20:44:51.8019418Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_awayfrown_up.xnb
+2013-05-19T20:44:52.3389725Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_blush.xnb
+2013-05-19T20:44:52.8640026Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_blush_up.xnb
+2013-05-19T20:44:53.3500304Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_closedsmile.xnb
+2013-05-19T20:44:53.8080566Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_closedsmile_up.xnb
+2013-05-19T20:44:54.3390869Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_evil.xnb
+2013-05-19T20:44:54.8701173Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_evil_up.xnb
+2013-05-19T20:44:55.4351496Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_frown.xnb
+2013-05-19T20:44:55.9641799Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_frown_close.xnb
+2013-05-19T20:44:49.3358008Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_frown_up.xnb
+2013-05-19T20:44:56.4312066Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grin.xnb
+2013-05-19T20:44:56.9682373Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grin_up.xnb
+2013-05-19T20:44:57.4932673Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grit.xnb
+2013-05-19T20:44:57.9852955Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grit_up.xnb
+2013-05-19T20:44:59.0543566Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_happy.xnb
+2013-05-19T20:44:59.5643858Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_happy_up.xnb
+2013-05-19T20:45:00.1674203Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_neutral.xnb
+2013-05-19T20:45:00.6604485Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_neutral_up.xnb
+2013-05-19T20:45:01.2224806Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_pout.xnb
+2013-05-19T20:45:01.7085084Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_pout_up.xnb
+2013-05-19T20:45:02.2225378Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_sad.xnb
+2013-05-19T20:45:02.7525682Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_sad_up.xnb
+2013-05-19T20:45:03.5046112Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_smile.xnb
+2013-05-19T20:45:03.9576371Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_smile_up.xnb
+2013-05-19T20:45:04.4276640Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_weaksmile.xnb
+2013-05-19T20:45:04.9186921Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_weaksmile_up.xnb
+2013-05-19T20:45:05.4787241Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_wink.xnb
+2013-05-19T20:45:06.0477566Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_wink_up.xnb
+2013-05-19T20:45:06.5517855Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\rin\rin_relaxed_doubt_pan.xnb
+2013-05-19T20:44:50.1648482Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\clock.xnb
+2013-05-19T20:44:49.3878037Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_A.xnb
+2013-05-23T20:06:55.5255683Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_down.xnb
+2013-05-19T20:44:36.1040439Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_selector.xnb
+2013-05-19T22:14:58.4272228Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_up.xnb
+2013-05-19T20:44:36.1960492Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\Logo_2.xnb
+2013-05-19T20:44:48.4277488Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\menu_action.xnb
+2013-05-19T20:44:48.7217656Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\messagebox.xnb
+2013-05-19T20:44:48.2547389Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\messagebox2.xnb
+2013-05-19T20:44:49.6948213Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_center_empty.xnb
+2013-05-19T20:44:47.7167082Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_fill_center_empty.xnb
+2013-05-19T20:44:47.7387094Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_fill_left_empty.xnb
+2013-05-19T20:44:47.7617107Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_fill_right_empty.xnb
+2013-05-19T20:44:47.7837120Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_left_empty.xnb
+2013-05-19T20:44:47.8067133Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_right_empty.xnb
+2013-05-19T20:44:47.8297146Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\tex_logo.xnb
+2013-05-19T20:44:36.3850600Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Ah_Eh_I_Oh_You.wma
+2013-05-19T20:45:12.8431453Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Ah_Eh_I_Oh_You.xnb
+2013-05-19T20:45:12.9261501Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Daylight.wma
+2013-05-19T20:45:17.0663869Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Daylight.xnb
+2013-05-19T20:45:17.1113894Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\clockfont.xnb
+2013-05-19T20:45:08.7799129Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\debugfont.xnb
+2013-05-19T20:45:08.2868847Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\debugfontsmall.xnb
+2013-05-19T20:45:08.3638891Z
+C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\speechfont.xnb
+2013-05-19T20:45:08.5699009Z

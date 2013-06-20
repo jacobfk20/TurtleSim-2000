@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>assets\gui\gui_button_down.png</Source>
+      <Name>assets\gui\gui_button_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_down.xnb</Output>
+      <Time>2013-04-18T02:20:42.5615709-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\gui_button_up.png</Source>
+      <Name>assets\gui\gui_button_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_up.xnb</Output>
+      <Time>2013-04-18T02:20:58.1134604-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\tex_logo.png</Source>
+      <Name>assets\gui\tex_logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\tex_logo.xnb</Output>
+      <Time>2013-04-18T02:21:20.2807283-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_classroomart.jpg</Source>
+      <Name>assets\backgrounds\school_classroomart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_classroomart.xnb</Output>
+      <Time>2009-06-11T14:19:57.15625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_courtyard.jpg</Source>
+      <Name>assets\backgrounds\school_courtyard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_courtyard.xnb</Output>
+      <Time>2009-06-11T14:20:20.234375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_dormbathroom.jpg</Source>
+      <Name>assets\backgrounds\school_dormbathroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormbathroom.xnb</Output>
+      <Time>2009-06-11T14:14:24.640625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_dormemi.jpg</Source>
+      <Name>assets\backgrounds\school_dormemi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormemi.xnb</Output>
+      <Time>2009-06-11T14:18:58.71875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_dormext_start.jpg</Source>
+      <Name>assets\backgrounds\school_dormext_start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormext_start.xnb</Output>
+      <Time>2009-06-11T14:17:16.296875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_dormkenji.jpg</Source>
+      <Name>assets\backgrounds\school_dormkenji</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_dormkenji.xnb</Output>
+      <Time>2009-06-11T14:16:08.4375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_forest1.jpg</Source>
+      <Name>assets\backgrounds\school_forest1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_forest1.xnb</Output>
+      <Time>2009-06-11T14:22:40.96875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_gate.jpg</Source>
+      <Name>assets\backgrounds\school_gate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_gate.xnb</Output>
+      <Time>2009-06-11T14:15:52.75-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\pgbar_center_empty.png</Source>
+      <Name>assets\gui\pgbar_center_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_center_empty.xnb</Output>
+      <Time>2013-04-18T17:08:18.5613674-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\pgbar_fill_center_empty.png</Source>
+      <Name>assets\gui\pgbar_fill_center_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_fill_center_empty.xnb</Output>
+      <Time>2013-04-18T17:03:46.4608042-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\pgbar_fill_left_empty.png</Source>
+      <Name>assets\gui\pgbar_fill_left_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_fill_left_empty.xnb</Output>
+      <Time>2013-04-18T17:04:01.1656453-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\pgbar_fill_right_empty.png</Source>
+      <Name>assets\gui\pgbar_fill_right_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_fill_right_empty.xnb</Output>
+      <Time>2013-04-18T17:04:37.1007006-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\pgbar_left_empty.png</Source>
+      <Name>assets\gui\pgbar_left_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_left_empty.xnb</Output>
+      <Time>2013-04-18T17:04:51.4405208-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\pgbar_right_empty.png</Source>
+      <Name>assets\gui\pgbar_right_empty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\pgbar_right_empty.xnb</Output>
+      <Time>2013-04-18T17:05:03.700222-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\messagebox.png</Source>
+      <Name>assets\gui\messagebox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\messagebox.xnb</Output>
+      <Time>2013-04-19T20:43:25.8792159-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\Logo_2.png</Source>
+      <Name>assets\gui\Logo_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\Logo_2.xnb</Output>
+      <Time>2013-04-20T02:57:27.8575585-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\menu_action.png</Source>
+      <Name>assets\gui\menu_action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\menu_action.xnb</Output>
+      <Time>2013-04-20T13:43:57.3204636-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_frown_close.png</Source>
+      <Name>assets\chara\emi\emicas_frown_close</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_frown_close.xnb</Output>
+      <Time>2010-09-03T13:43:35.6966-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\clock.png</Source>
+      <Name>assets\gui\clock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\clock.xnb</Output>
+      <Time>2013-04-22T17:16:00.2429205-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\messagebox2.png</Source>
+      <Name>assets\gui\messagebox2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\messagebox2.xnb</Output>
+      <Time>2013-04-22T17:48:49.0045272-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\rin\rin_relaxed_doubt_pan.png</Source>
+      <Name>assets\chara\rin\rin_relaxed_doubt_pan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\rin\rin_relaxed_doubt_pan.xnb</Output>
+      <Time>2013-04-22T18:08:08.455844-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_angry.png</Source>
+      <Name>assets\chara\emi\emicas_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_angry.xnb</Output>
+      <Time>2010-09-03T13:42:14.3706-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_angry_up.png</Source>
+      <Name>assets\chara\emi\emicas_angry_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_angry_up.xnb</Output>
+      <Time>2010-09-03T13:42:40.8886-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_awayfrown.png</Source>
+      <Name>assets\chara\emi\emicas_awayfrown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_awayfrown.xnb</Output>
+      <Time>2010-09-03T13:41:58.3256-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_awayfrown_up.png</Source>
+      <Name>assets\chara\emi\emicas_awayfrown_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_awayfrown_up.xnb</Output>
+      <Time>2010-09-03T13:42:25.3756-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_blush.png</Source>
+      <Name>assets\chara\emi\emicas_blush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_blush.xnb</Output>
+      <Time>2010-09-03T13:41:53.1786-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_blush_up.png</Source>
+      <Name>assets\chara\emi\emicas_blush_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_blush_up.xnb</Output>
+      <Time>2010-09-03T13:42:19.8806-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_closedsmile.png</Source>
+      <Name>assets\chara\emi\emicas_closedsmile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_closedsmile.xnb</Output>
+      <Time>2010-09-03T13:47:49.3946-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_closedsmile_up.png</Source>
+      <Name>assets\chara\emi\emicas_closedsmile_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_closedsmile_up.xnb</Output>
+      <Time>2010-09-03T13:47:59.9896-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_evil.png</Source>
+      <Name>assets\chara\emi\emicas_evil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_evil.xnb</Output>
+      <Time>2010-09-03T13:43:22.9616-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_evil_up.png</Source>
+      <Name>assets\chara\emi\emicas_evil_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_evil_up.xnb</Output>
+      <Time>2010-09-03T13:47:44.3196-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_frown.png</Source>
+      <Name>assets\chara\emi\emicas_frown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_frown.xnb</Output>
+      <Time>2010-09-03T13:43:02.0356-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_frown_up.png</Source>
+      <Name>assets\chara\emi\emicas_frown_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_frown_up.xnb</Output>
+      <Time>2010-09-03T13:43:17.8426-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_grin.png</Source>
+      <Name>assets\chara\emi\emicas_grin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grin.xnb</Output>
+      <Time>2010-09-03T13:43:12.4516-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_grin_up.png</Source>
+      <Name>assets\chara\emi\emicas_grin_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grin_up.xnb</Output>
+      <Time>2010-09-03T13:47:38.8606-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_grit.png</Source>
+      <Name>assets\chara\emi\emicas_grit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grit.xnb</Output>
+      <Time>2010-09-03T13:47:54.5136-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_grit_up.png</Source>
+      <Name>assets\chara\emi\emicas_grit_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_grit_up.xnb</Output>
+      <Time>2010-09-03T13:48:15.6676-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_happy.png</Source>
+      <Name>assets\chara\emi\emicas_happy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_happy.xnb</Output>
+      <Time>2010-09-03T13:42:30.5166-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_happy_up.png</Source>
+      <Name>assets\chara\emi\emicas_happy_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_happy_up.xnb</Output>
+      <Time>2010-09-03T13:42:46.2416-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_neutral.png</Source>
+      <Name>assets\chara\emi\emicas_neutral</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_neutral.xnb</Output>
+      <Time>2010-09-03T13:48:26.0656-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_neutral_up.png</Source>
+      <Name>assets\chara\emi\emicas_neutral_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_neutral_up.xnb</Output>
+      <Time>2010-09-03T13:42:09.2506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_pout.png</Source>
+      <Name>assets\chara\emi\emicas_pout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_pout.xnb</Output>
+      <Time>2010-09-03T13:42:56.9236-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_pout_up.png</Source>
+      <Name>assets\chara\emi\emicas_pout_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_pout_up.xnb</Output>
+      <Time>2010-09-03T13:43:07.3416-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_sad.png</Source>
+      <Name>assets\chara\emi\emicas_sad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_sad.xnb</Output>
+      <Time>2010-09-03T13:48:05.0956-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_sad_up.png</Source>
+      <Name>assets\chara\emi\emicas_sad_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_sad_up.xnb</Output>
+      <Time>2010-09-03T13:41:42.7236-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_smile.png</Source>
+      <Name>assets\chara\emi\emicas_smile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_smile.xnb</Output>
+      <Time>2010-09-03T13:48:20.9436-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_smile_up.png</Source>
+      <Name>assets\chara\emi\emicas_smile_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_smile_up.xnb</Output>
+      <Time>2010-09-03T13:42:03.7676-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_weaksmile.png</Source>
+      <Name>assets\chara\emi\emicas_weaksmile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_weaksmile.xnb</Output>
+      <Time>2010-09-03T13:42:35.6146-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_weaksmile_up.png</Source>
+      <Name>assets\chara\emi\emicas_weaksmile_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_weaksmile_up.xnb</Output>
+      <Time>2010-09-03T13:42:51.6806-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_wink.png</Source>
+      <Name>assets\chara\emi\emicas_wink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_wink.xnb</Output>
+      <Time>2010-09-03T13:48:10.2326-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\emi\emicas_wink_up.png</Source>
+      <Name>assets\chara\emi\emicas_wink_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\chara\emi\emicas_wink_up.xnb</Output>
+      <Time>2010-09-03T13:41:48.0576-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\backgrounds\school_cafeteria.jpg</Source>
+      <Name>assets\backgrounds\school_cafeteria</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\backgrounds\school_cafeteria.xnb</Output>
+      <Time>2009-06-11T14:16:28.84375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\debugfont.spritefont</Source>
+      <Name>fonts\debugfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\debugfont.xnb</Output>
+      <Time>2013-04-18T02:23:18.1134679-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\debugfontsmall.spritefont</Source>
+      <Name>fonts\debugfontsmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\debugfontsmall.xnb</Output>
+      <Time>2013-04-19T20:57:20.9879814-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\speechfont.spritefont</Source>
+      <Name>fonts\speechfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\speechfont.xnb</Output>
+      <Time>2013-04-21T13:42:42.0804015-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\clockfont.spritefont</Source>
+      <Name>fonts\clockfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\fonts\clockfont.xnb</Output>
+      <Time>2013-04-22T17:33:41.4566184-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\music\Ah_Eh_I_Oh_You.mp3</Source>
+      <Name>assets\music\Ah_Eh_I_Oh_You</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Ah_Eh_I_Oh_You.xnb</Output>
+      <Extra>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Ah_Eh_I_Oh_You.wma</Extra>
+      <Time>2013-04-23T23:05:27.3951656-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\music\Daylight.mp3</Source>
+      <Name>assets\music\Daylight</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Daylight.xnb</Output>
+      <Extra>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\music\Daylight.wma</Extra>
+      <Time>2013-05-17T23:25:34.1539638-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\gui_button_selector.png</Source>
+      <Name>assets\gui\gui_button_selector</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_selector.xnb</Output>
+      <Time>2013-05-19T16:50:07.1549269-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\gui\gui_button_A.png</Source>
+      <Name>assets\gui\gui_button_A</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\assets\gui\gui_button_A.xnb</Output>
+      <Time>2013-05-23T13:52:59.0538167-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000Content\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\Xbox 360\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-06-18T21:52:29.4010972-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

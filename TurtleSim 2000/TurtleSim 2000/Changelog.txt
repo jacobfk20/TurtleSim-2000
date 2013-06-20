@@ -1,0 +1,87 @@
+﻿Guess I should keep a change log on what happens from build to build..
+
+things to do..
+[-] = requierd to become alpha.
+
+x. finish all scripts for all normal events [-]
+2. add random events
+3. add scripts for random events
+x. fix textbox showing eventname on first show. [-]
+5. add advanced scripting to control chara movement  --in progress
+x. improve clock.  It is just a text feild. [-]
+x. clean up the GUI a bit.  I'm not good at art. :/ 
+8. add transitions
+9. add intro; dont just drop player in dorm..
+10. add simple 'first time' play tutorial
+11. test to make sure it is a challange.  (must finish most of everything else)
+x. add a gameover screen and logic. [-]
+x. add a gameover/win screen [-]
+14. add MySQL support for leaderboards maybe?
+x. add chara.
+
+
+
+
+Started on build 006, just didn't think I would code this far..
+
+===========================Build 017 - Alpha(0.25)====================
++finished new script storage classes.  works perfectly.  *knock on wood.*
++added ability to change music via scripts.
+
+===========================Build 016 - Alpha(0.22)====================
++created a new way of keeping scripts stored.  almost works.
+
+===========================Build 014 - Alpha(0.22)====================
++started work on new script manager.
+	-will divide scripts into pages and then compile into a masterscript (book)
+
+===========================Build 013 - Alpha(0.22)====================
++Added Story Events! (So far just meeting Emi)
++Added Story Event Handler.
++Added Xbox 360 "A" button graphic
+
+===========================Build 012 - Alpha(0.21)====================
++Xbox 360 controls work.
++Added random controller vibration
+-Script Reader is now having problems...
+
+===========================Build 011 - Alpha(0.2 )====================
++DEPLOYED TO THE 360!!
+
+===========================Build 010 - Alpha(0.2 )====================
++Fixed doing an event for a second time crashing game.
++added music changing /not yet controlled by script reader/
++started work on 360 support /controller support almost added/
+
+
+===========================Build 009 - Alpha(0.15)====================
++Added Quit Button
++started support for full screen (in progress)
++added support for 100 scripts!
++started writting some more event scripts
++fixed up script reader; doesnt get out of sync and show code instead of dialogue.
+
+
+===========================Build 008 - Alpha(0.1)=====================
++Added music playback ability
++cleaned up script code
++added new script code
++added all basic scripts
++gameover screen
+
+
+=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+===========================Build 007 - PreAlpha=======================
++added clock graphic
++improved text window gui
++fixed chara textures from being streched.
++added all basic scripts.  All events are now playable in a basic state.
++added gameover screen.  simple though.
+
+===========================Build 006 - PreAlpha=======================
++fixed mouse click; no longer blasts through dialogue.
++script reader is improved.  can't possibly fuck up now.
++fixed spacing and layout of text box.  minor issue.
++cleaned up some junk; improved speed.
++fixed textwindow showing prematurly.
