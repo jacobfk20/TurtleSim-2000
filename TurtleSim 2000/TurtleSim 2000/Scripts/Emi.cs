@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,7 @@ namespace TurtleSim_2000
         string bgchange = "bgchange";
         string charaevent_show_1 = "charaevent show 1";
         string charaevent_show_2 = "charaevent show 2";
+        string charaevent_move_1 = "charaevent move 1";
         string charaevent_exit = "charaevent exit";
         string music = "music";
         string music_stop = "music stop";
@@ -50,7 +51,16 @@ namespace TurtleSim_2000
 
                                        "Emi:\n\"Oh hello, " + playername + ".  My name is Emi!  I see you're out walking\naround and I though I would join you!\"",
                                        playername + ":\n\"Nah, I think I'm good, but thanks.\"",
+
+                                       charaevent_move_1,
+                                       "right",
+
                                        "Emi:\n\"Oh don't be like that!  C'mon, It'll be fun!  I promise.\"",
+
+                                       charaevent_move_1,
+                                       "left",
+
+                                       "easy ass shit.",
 
                                        charaevent_show_1,
                                        "emi/emicas_wink",
@@ -106,12 +116,86 @@ namespace TurtleSim_2000
                                        //=============================================SCRIPT 002==================================================
                                        breakpage, 
 
-                                       "eat_emi_first",
+                                       "eat_emi",
 
-                                       "Placeholder...",
-                                       "Yet another placeholder.",
-                                       "You know, this is a TON better to write script with than before.",
-                                       "I sure hope I get this working right...",
+                                       "I start to feel my stomach rumble, better head to the cafe.",
+
+                                       bgchange,
+                                       "school_cafeteria",
+
+                                       "After going through the line and getting my food, I decide to find a nice \nalone spot to gather my thoughts.",
+                                       "Just as I'm about to take a seat someone I've seen before comes up to me.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_happy_up",
+
+                                       "Emi: \n\"Hey " + playername + "!  I knew I would run in to you here!",
+                                       playername + ": \n\"Yeah, fancy that!",
+                                       "I feel as if what I said was pretty spiteful.\nBut She doesn't seem to be affected by it.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_smile",
+
+                                       "Emi: \n\"So have you given my offer a thought?\"",
+                                       "At first I felt stupified, then I remembered what she was talking about\nBut She must have noticed my face of ignorance.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_frown",
+
+                                       "Emi: \n\"Did you forget?", 
+                                       playername + ": \n\"Uh..  No!  You just caught me off guard is all.\"",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_grin",
+
+                                       "Emi: \n\"Haha!  Don't worry about it!  You have my phone number, just text me\nwhen you have finally decided.\"",
+                                       "Emi: \n\"Or..  I'll text you.\"",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_evil_up",
+
+                                       "Emi: \n\"You don't want me to text you first, haha!\"",
+                                       "I kinda felt uncomfortable after that last comment.  I don't know if she is \nkidding, or if she is threatening to kill me.  either way, I should text her \nfirst.\"",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_neutral",
+
+                                       "I see her looking around and starts to look fairly concerned.",
+                                       "Emi: \n\"Are you going to eat over here just by yourself?\"",
+                                       "The question caught me off gaurd.  She seems to be vary good at that.\"",
+                                       playername + ": \n\"Uh, I was--\"",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_happy_up",
+
+                                       "Emi: \n\"I can sit with you!\"",
+
+                                       "She interupted me.  Yet again, off gaurd.",
+                                       "I shrug it off and I start to sit down.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_sad",
+
+                                       "Emi: \n\"Oh!  I forgot I need to be at practice in like two minutes!",
+
+                                       charaevent_move_1,
+                                       "offright",
+
+                                       "Before I can even think she is gone.  Oh well, I can finally be alone.",
+                                       "I eat my meal and put the tray back up and head back to the dorms.",
+
+                                       charaevent_exit,
+
+                                       bgchange,
+                                       "school_dormext_start",
+
+                                       "Just as I am about to enter my dorm I see Emi running with a group\nof people.",
+                                       "Huh, she must be on the track team.",
+
+                                       bgchange,
+                                       "school_dormkenji",
+
+                                       "She kinda scares me.",
 
                                        //breakpage,
 
