@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -16,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 019) Alpha 0.25";
+        String GameInfo = "TurtleSim 2000 (Build 020) Alpha 0.25";
 
         //fonts
         SpriteFont debugfont;
@@ -110,7 +111,7 @@ namespace TurtleSim_2000
         int SelectorPosY = 0;
 
         string eventname = "";
-
+        string charatalk = "No Name:\n\"";
         string ErrorReason = "Fuck, I don't know.";
 
         //Game Variables
@@ -120,6 +121,12 @@ namespace TurtleSim_2000
         int social;
         int Time = 1600;
         int Day = 1;
+        int DayofWeek = 1;
+        string weekday = "Monday";
+        string s_class = "";
+        string s_class1 = "Ergonomics";
+        string s_class2 = "Banana Boating 101";
+        string s_class3 = "Advanced Shoe Tieing";
         int Turns = 0;
 
         string playername = "Turtle";
@@ -374,6 +381,8 @@ namespace TurtleSim_2000
 
             if (bGamePad == true) ButtonSelector();
 
+            dayactions();
+
             #region StartScreen Logic
             //handles for start screen
             if(bStart == true)
@@ -507,12 +516,13 @@ namespace TurtleSim_2000
             spriteBatch.Begin();
 
             //background manage here
-            if (bDorm == true)
+            if (bDorm == true)  //CHANGE THIS TO GO OFF A DIFFERENT BOOL!!!!
             {
                 spriteBatch.Draw(bg_manage, new Rectangle(0, 0, 800, 480), Color.White);
             }
 
             actionmenu();
+            if (bMenu == true) classmenu();
 
             //Draw Progress bars.
             if (bHud == true) spriteBatch.Draw(messagebox, new Rectangle(0, -5, 200, 125), Color.White);
@@ -682,6 +692,33 @@ namespace TurtleSim_2000
 
             }
 
+        }
+
+        //class schedule box
+        protected void classmenu()
+        {
+            spriteBatch.Draw(action_menu, new Rectangle(500, 340, 400, 400), Color.White);
+            spriteBatch.DrawString(debugfont, weekday + "      Day: " + Day, new Vector2(520, 360), Color.White);
+            spriteBatch.DrawString(speechfont, "Schedule: \n   " + s_class, new Vector2(520, 395), Color.White);
+        }
+
+        protected void dayactions()
+        {
+
+            if (weekday == "Monday")
+            {
+                s_class = s_class1;
+            }
+         
+            if (weekday == "Wednesday")
+            {
+                s_class = s_class2;
+            }
+            if (weekday == "Friday")
+            {
+                s_class = s_class3;
+            }
+            if (weekday == "Tuesday" || weekday == "Thursday" || weekday == "Saturday" || weekday == "Sunday") s_class = "";
         }
 
         //Action Menu
@@ -1109,6 +1146,7 @@ namespace TurtleSim_2000
                         bMoveChar1 = true;
                         scriptreadery++;
                     }
+
                     if (MasterScript.Read(scriptreaderx, scriptreadery) != null) dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
                 }
                 else
@@ -1133,11 +1171,21 @@ namespace TurtleSim_2000
                     oldt = Time + v - 2400;
                     Time = oldt;
                     Day++;
+                    if (DayofWeek >= 7) DayofWeek = 1;
+                    else DayofWeek++;
                 }
                 else
                 {
                     Time += v;
                 }
+
+                if (DayofWeek == 1) weekday = "Monday";
+                if (DayofWeek == 2) weekday = "Tuesday";
+                if (DayofWeek == 3) weekday = "Wednesday";
+                if (DayofWeek == 4) weekday = "Thursday";
+                if (DayofWeek == 5) weekday = "Friday";
+                if (DayofWeek == 6) weekday = "Saturday";
+                if (DayofWeek == 7) weekday = "Sunday";
 
         }
 
