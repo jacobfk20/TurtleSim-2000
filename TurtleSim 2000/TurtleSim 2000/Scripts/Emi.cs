@@ -8,6 +8,8 @@ namespace TurtleSim_2000
     class Emi
     {
         string[] emipages;
+
+        //Declare Script Actions:
         string playername = "Turtle";
         string bgchange = "bgchange";
         string charaevent_show_1 = "charaevent show 1";
@@ -17,6 +19,11 @@ namespace TurtleSim_2000
         string music = "music";
         string music_stop = "music stop";
         string breakpage = "break";
+
+        //Ease of Formatting:
+        //use these instead of escapes  Ex. (  emi + "dialogue",  )
+        string emi = "Emi: \n\""; 
+
         bool hasbeenopened = false;
 
 
@@ -49,13 +56,13 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_happy_up",
 
-                                       "Emi:\n\"Oh hello, " + playername + ".  My name is Emi!  I see you're out walking\naround and I though I would join you!\"",
+                                       emi + "Oh hello, " + playername + ".  My name is Emi!  I see you're out walking\naround and I though I would join you!\"",
                                        playername + ":\n\"Nah, I think I'm good, but thanks.\"",
 
                                        charaevent_move_1,
                                        "right",
 
-                                       "Emi:\n\"Oh don't be like that!  C'mon, It'll be fun!  I promise.\"",
+                                       emi + "Oh don't be like that!  C'mon, It'll be fun!  I promise.\"",
 
                                        charaevent_move_1,
                                        "left",
@@ -65,14 +72,14 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_wink",
 
-                                       "Emi: \n\"Besides, who could turn down an opportunity to walk with someone \nsuch as me?\"",
+                                       emi  + "Besides, who could turn down an opportunity to walk with someone \nsuch as me?\"",
                                        playername + ": \n\"I'm sure there are a few.\"",
 
                                        charaevent_show_1,
                                        "emi/emicas_weaksmile",
 
                                        "I guess that was a bit too harsh of me to say.  Oh well, it's too late now.",
-                                       "Emi: \n\"Do..  Do you not want me to bother you?\"",
+                                       emi + "Do..  Do you not want me to bother you?\"",
                                        "Emi: \n\"C'mon, let me walk with you.  Please?  Don't make me do my\npouty face.  No one can resist!\"",
 
                                        charaevent_show_1,
@@ -84,20 +91,20 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_happy_up",
 
-                                       "Emi: \n\"I told you it always works.\"",
+                                       emi + "I told you it always works.\"",
                                        "\"Emi and I start walking together.  She starts to pick up the pace and I\nslowly follow in suite.  Not so long after I start to get tired and say my\ngoodbye.\"",
                                        "\"She stops me and gives me and we exchange phone numbers real quick.",
 
                                        charaevent_show_1,
                                        "emi/emicas_neutral",
 
-                                       "Emi:\n\"I know we just met, but I would really enjoy if you would run with me\nmore often.  It's always nice to have a running partner!\"",
+                                       emi + "I know we just met, but I would really enjoy if you would run with me\nmore often.  It's always nice to have a running partner!\"",
                                        playername + ":\n\"I don't know.  I'm not a big fan of running.\"",
 
                                        charaevent_show_1,
                                        "emi/emicas_happy_up",
 
-                                       "Emi:\n\"Just give it a thought and text me if you change your mind!\nIt's fun!  I promise!\"",
+                                       emi + "Just give it a thought and text me if you change your mind!\nIt's fun!  I promise!\"",
 
                                        charaevent_exit,
 
@@ -129,46 +136,46 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_happy_up",
 
-                                       "Emi: \n\"Hey " + playername + "!  I knew I would run in to you here!",
+                                       emi + "Hey " + playername + "!  I knew I would run in to you here!",
                                        playername + ": \n\"Yeah, fancy that!",
                                        "I feel as if what I said was pretty spiteful.\nBut She doesn't seem to be affected by it.",
 
                                        charaevent_show_1,
                                        "emi/emicas_smile",
 
-                                       "Emi: \n\"So have you given my offer a thought?\"",
+                                       emi + "So have you given my offer a thought?\"",
                                        "At first I felt stupified, then I remembered what she was talking about\nBut She must have noticed my face of ignorance.",
 
                                        charaevent_show_1,
                                        "emi/emicas_frown",
 
-                                       "Emi: \n\"Did you forget?", 
+                                       emi + "Did you forget?", 
                                        playername + ": \n\"Uh..  No!  You just caught me off guard is all.\"",
 
                                        charaevent_show_1,
                                        "emi/emicas_grin",
 
-                                       "Emi: \n\"Haha!  Don't worry about it!  You have my phone number, just text me\nwhen you have finally decided.\"",
-                                       "Emi: \n\"Or..  I'll text you.\"",
+                                       emi + "Haha!  Don't worry about it!  You have my phone number, just text me\nwhen you have finally decided.\"",
+                                       emi + "Or..  I'll text you.\"",
 
                                        charaevent_show_1,
                                        "emi/emicas_evil_up",
 
-                                       "Emi: \n\"You don't want me to text you first, haha!\"",
+                                       emi + "You don't want me to text you first, haha!\"",
                                        "I kinda felt uncomfortable after that last comment.  I don't know if she is \nkidding, or if she is threatening to kill me.  either way, I should text her \nfirst.\"",
 
                                        charaevent_show_1,
                                        "emi/emicas_neutral",
 
                                        "I see her looking around and starts to look fairly concerned.",
-                                       "Emi: \n\"Are you going to eat over here just by yourself?\"",
+                                       emi + "Are you going to eat over here just by yourself?\"",
                                        "The question caught me off gaurd.  She seems to be vary good at that.\"",
                                        playername + ": \n\"Uh, I was--\"",
 
                                        charaevent_show_1,
                                        "emi/emicas_happy_up",
 
-                                       "Emi: \n\"I can sit with you!\"",
+                                       emi + "I can sit with you!\"",
 
                                        "She interupted me.  Yet again, off gaurd.",
                                        "I shrug it off and I start to sit down.",
@@ -176,7 +183,7 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_sad",
 
-                                       "Emi: \n\"Oh!  I forgot I need to be at practice in like two minutes!",
+                                       emi + "Oh!  I forgot I need to be at practice in like two minutes!",
 
                                        charaevent_move_1,
                                        "offright",
