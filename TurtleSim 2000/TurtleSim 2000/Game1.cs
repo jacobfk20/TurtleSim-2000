@@ -1347,9 +1347,9 @@ namespace TurtleSim_2000
                 addhp(10);
                 addfat(2);
                 addsocial(1);
-                if (sMetEmi == true & sEatEmi = false)
+                if (sMetEmi == true & sEatEmi == false)
                 {
-                    if (MetEmiTime >= MetEmiTime + 1)
+                    if (MetEmiTime <= MetEmiTime + 1)
                     {
                         eventname = "eat_emi";
                         addsocial(1);
