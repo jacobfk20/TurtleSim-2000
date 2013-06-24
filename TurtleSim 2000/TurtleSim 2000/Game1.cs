@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 020) Alpha 0.25";
+        String GameInfo = "TurtleSim 2000 (Build 021) Alpha 0.25";
 
         //fonts
         SpriteFont debugfont;
@@ -45,104 +45,108 @@ namespace TurtleSim_2000
         Texture2D ButtonA;
 
         //background textures
-        Texture2D bg_manage;
-        Texture2D bg_classroom;
-        Texture2D bg_courtyard;
-        Texture2D bg_dormbath;
-        Texture2D bg_dormgirl;
-        Texture2D bg_dorm_ext;
-        Texture2D bg_dorm;
-        Texture2D bg_forest;
-        Texture2D bg_gate;
+        Texture2D bg_manage;             //Background: ??
+        Texture2D bg_classroom;          //Background: Classroom
+        Texture2D bg_courtyard;          //Background: Courtyard
+        Texture2D bg_dormbath;           //Background: Dorm bathroom
+        Texture2D bg_dormgirl;           //Background: Girls Dorm Hall
+        Texture2D bg_dorm_ext;           //Background: Boys Dorm Exterior
+        Texture2D bg_dorm;               //Background: Player's Dorm Room
+        Texture2D bg_forest;             //Background: Forest (walking area)
+        Texture2D bg_gate;               //Background: School Front Gate
 
         //Chara
-        Texture2D emi_frown_close;
-        Texture2D rin_relaxed_doubt_pan;
+        Texture2D emi_frown_close;           //old way of storing chara
+        Texture2D rin_relaxed_doubt_pan;     //old way of storing chara
 
         //music
-        Song basic;
-        Song m_daylight;
-        bool songstart = false;
+        Song basic;                      //old way of storing music
+        Song m_daylight;                 //old way of storing music
+        bool songstart = false;          //Start playing music (set to false to switch song)
 
-        ScriptCompiler MasterScript = new ScriptCompiler();
-        int totscripts = 0;
+        ScriptCompiler MasterScript = new ScriptCompiler();    //Handles all scripts and puts them in one place.
+        int totscripts = 0;              //Gets the total amount of compiled scripts
 
-        int actionmenuscroller = -300;
-        int bgscroller = 0;
-        int bgscrollslowerdowner = 0;
-        int logoscaler = 0;
-        bool reversescaler = false;
+        int actionmenuscroller = -300;   //moves the menu back and forth when it is called or closed
+        int bgscroller = 0;              //moves the background on the START MENU
+        int bgscrollslowerdowner = 0;    //Slows the scroll down more.
+        int logoscaler = 0;              //Scales the logo X and Y.
+        bool reversescaler = false;      //Reverses the X and Y.
 
         
         //engine bool
-        bool bStart = true;
-        bool bSleep = false;
-        bool bActive = false;
-        bool bGamerun = false;
-        bool bLoner = false;
-        bool bDorm = false;
-        bool bMenu = false;
-        bool bError = false;
-        bool bHud = false;
-        bool bFirstrun = false;
-        bool bShowtext = false;
-        bool bRunevent = false;
-        bool bGameover = false;
-        bool bWin = false;
-        bool bClicked = false;
-        bool bclicking = false;
-        bool bGamePad = false;       //tells the game either Gamepad or Mouse/keyboard
-        bool DpadDown = false;
-        bool DpadUp = false;
-        bool DpadLeft = false;
-        bool DpadRight = false;
-        bool bMoveChar1 = false;    //determins if we should move the chara
-        bool bMoveChar2 = false;    //determins if we should move the chara
+        bool bStart = true;               //Main game menu.  (only true on startup.)
+        bool bSleep = false;              //Determines if the player is asleep.
+        bool bActive = false;             //Determines if the player is active.  (walking; eating; ext)
+        bool bGamerun = false;            //Continues to loop through; should be true always after start
+        bool bLoner = false;              //Determines if the player is being too anti-social
+        bool bDorm = false;               //Tells the game that player is in the dorm room
+        bool bMenu = false;               //Calls the main action select menu.
+        bool bError = false;              //calls the ERROR textbox.  halts game.
+        bool bHud = false;                //will show the hud.  false will hide it
+        bool bFirstrun = false;           //Sets the game up; only enable this to refresh all variables to default
+        bool bShowtext = false;           //Tells the engine to show textbox and run through script
+        bool bRunevent = false;           //Tells the engine to run a specific event (actions)
+        bool bGameover = false;           //If the player loses; opens a new scene
+        bool bWin = false;                //If the player wins; opens a new scene
+        bool bClicked = false;            //is enabled for 1 frame; will send a (click)
+        bool bclicking = false;           //to  determine if the player is holding the mouse button
+        bool bGamePad = false;            //tells the game either Gamepad or Mouse/keyboard
+        bool DpadDown = false;            //tells input that dpad is down
+        bool DpadUp = false;              //tells input that dpad is up
+        bool DpadLeft = false;            //tells input that dpad is left
+        bool DpadRight = false;           //tells input that dpad is right
+        bool bMoveChar1 = false;          //determins if we should move the chara
+        bool bMoveChar2 = false;          //determins if we should move the chara
         bool fixfirstscripterror = true;  //helps patch up the "nothing to say" error at first event.
 
         //GAME STORY SWITCHES
-        bool sMetEmi = false;
+        bool sMetEmi = false;      //First met emi, this will switch off that script from running
+        bool sEatEmi = false;      //First time (almost) eating with Emi; switches script off
+        
+        //GAME STORY VARIABLES
+        int MetEmiTime = 0;        //This makes it to where you eat lunch with emi 1 day after meeting her.
 
         string SetMusic;
 
         int dpadx = 0;
         int dpady = 0;
-        int SelectorPosX = 0;
-        int SelectorPosY = 0;
+        int SelectorPosX = 0;      //Sets the Button selector along X coords; for Xbox360
+        int SelectorPosY = 0;      //Sets Y axis.  (these keep it memorised too)
 
         string eventname = "";
         string charatalk = "No Name:\n\"";
         string ErrorReason = "Fuck, I don't know.";
 
         //Game Variables
-        int HP;
-        int Energy;
-        int Fat;
-        int social;
-        int Time = 1600;
-        int Day = 1;
-        int DayofWeek = 1;
-        string weekday = "Monday";
-        string s_class = "";
-        string s_class1 = "Ergonomics";
-        string s_class2 = "Banana Boating 101";
-        string s_class3 = "Advanced Shoe Tieing";
-        int Turns = 0;
+        int HP;                     //Health
+        int Energy;                 //Energy
+        int Fat;                    //Fat
+        int social;                 //Social (-antisocial / + popular)
+        int Time = 1600;            //Time of Day (in 24 hour format; converts to 12.)
+        int Day = 1;                //Days that have passed. 
+        int DayofWeek = 1;          //Day of the week (1-7; Gets converted to names)
+        string weekday = "Monday";  //Named version of above int.
+        string s_class = "";                         //What class is happening today
+        string s_class1 = "Ergonomics";              //First class slot
+        string s_class2 = "Banana Boating 101";      //Second Class slot
+        string s_class3 = "Advanced Shoe Tieing";    //Third Class slot
+        int Turns = 0;              //How many actions the player has done in one game playthrough
 
-        string playername = "Turtle";
+        string playername = "Turtle";               //Default playername
 
-        string[,] script = new string[101,500];
-        string dialouge = "nothing to say";
-        int scriptreaderx = 0;
-        int scriptreadery = 0;
+        string[,] script = new string[101,500];     //MasterScript string array; holds all scripts (old)
+        string dialouge = "nothing to say";         //This pulls the dialouge from script and displays it.
+        int scriptreaderx = 0;                      //ScriptReaderx tells what script to read from
+        int scriptreadery = 0;                      //Scriptreadery tells what line to read from
 
 
         //animation related
-        string chara1;
-        string chara2;
-        Texture2D charamanager1;
-        Texture2D charamanager2;
-        string bg1;
+        string chara1;                 //used to tell the charamanager what chara to draw. slot1
+        string chara2;                 //" " "  Slot 2.
+        Texture2D charamanager1;       //Charamanager draws the chara to screen.
+        Texture2D charamanager2;       //Same; slot 2.
+        string bg1;                    //Sets background to the first one. (old)
         //Texture2D bgmanager;
 
         //animation frame ints
@@ -154,10 +158,10 @@ namespace TurtleSim_2000
 
 
         //just for testing and messing
-        Random Rando = new Random();
-        int cocks;
-        float vibrator = 0.1f;
-        float vibrator2 = 0.1f;
+        Random Rando = new Random();         //Gives us a random generated number
+        int cocks;                           //Used for keeping a random int; for debug really.
+        float vibrator = 0.1f;               //Controls Vibration function for controller 1
+        float vibrator2 = 0.1f;              //For Controller 2.
 
 
         GraphicsDeviceManager graphics;
@@ -1322,7 +1326,8 @@ namespace TurtleSim_2000
                 {
                     if (sMetEmi == false)           //if you have already met her, you cannot get it again.
                     {
-                        eventname = "eat_emi";
+                        MetEmiTime = Day;
+                        eventname = "walk_meetemi";
                         addsocial(1);
                         addtime(100);
                         addhp(-2);
@@ -1342,6 +1347,16 @@ namespace TurtleSim_2000
                 addhp(10);
                 addfat(2);
                 addsocial(1);
+                if (sMetEmi == true & sEatEmi = false)
+                {
+                    if (MetEmiTime >= MetEmiTime + 1)
+                    {
+                        eventname = "eat_emi";
+                        addsocial(1);
+                        addtime(100);
+                        sEatEmi = true;
+                    }
+                }
             }
             if (eventname == "homework")
             {
