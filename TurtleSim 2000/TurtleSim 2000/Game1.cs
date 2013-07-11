@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 021) Alpha 0.25";
+        String GameInfo = "TurtleSim 2000 (Build 023) Alpha 0.3";
 
         //fonts
         SpriteFont debugfont;
@@ -99,6 +99,7 @@ namespace TurtleSim_2000
         bool bMoveChar1 = false;          //determins if we should move the chara
         bool bMoveChar2 = false;          //determins if we should move the chara
         bool fixfirstscripterror = true;  //helps patch up the "nothing to say" error at first event.
+        bool bQuestion = false;           //If the player is being asked a question, this halts script reader from continueing.
 
         //GAME STORY SWITCHES
         bool sMetEmi = false;      //First met emi, this will switch off that script from running
@@ -106,6 +107,12 @@ namespace TurtleSim_2000
         
         //GAME STORY VARIABLES
         int MetEmiTime = 0;        //This makes it to where you eat lunch with emi 1 day after meeting her.
+
+        //GAME STORY ENGINE VARIABLES
+        string question1 = "";      //For the "Fork Question" function.  (what responses you have to a question a chara asks you)
+        string question2 = "";      //Same as the first, except for the 2nd response.
+        string ForkScript1 = "";    //Grabs what script to jump to if Question1 is the reply to the quesiton
+        string ForkSCript2 = "";    //Grabs what script to jump to if Question2 is the reply.
 
         string SetMusic;
 
@@ -463,6 +470,8 @@ namespace TurtleSim_2000
                 bRunevent = false;
             }
 
+            if (bQuestion == true) ForkQuestion();
+
             if (chara1 != null) charamanager1 = Content.Load<Texture2D>("assets/chara/" + chara1 + "");
             if (chara2 != null) charamanager2 = Content.Load<Texture2D>("assets/chara/" + chara2 + "");
 
@@ -524,6 +533,8 @@ namespace TurtleSim_2000
             {
                 spriteBatch.Draw(bg_manage, new Rectangle(0, 0, 800, 480), Color.White);
             }
+
+            if (bQuestion == true) ForkQuestionDraw();
 
             actionmenu();
             if (bMenu == true) classmenu();
@@ -704,6 +715,42 @@ namespace TurtleSim_2000
             spriteBatch.Draw(action_menu, new Rectangle(500, 340, 400, 400), Color.White);
             spriteBatch.DrawString(debugfont, weekday + "      Day: " + Day, new Vector2(520, 360), Color.White);
             spriteBatch.DrawString(speechfont, "Schedule: \n   " + s_class, new Vector2(520, 395), Color.White);
+        }
+
+        //Question and Answer function
+        protected void ForkQuestionDraw()
+        {
+            spriteBatch.Draw(buttonup, new Rectangle(400, 220, 300, 50), Color.White);
+            spriteBatch.DrawString(speechfont, question1, new Vector2(410, 225), Color.White);
+            spriteBatch.Draw(buttonup, new Rectangle(400, 280, 300, 50), Color.White);
+            spriteBatch.DrawString(speechfont, question2, new Vector2(410, 285), Color.White);
+        }
+        protected void ForkQuestion()
+        {
+            var mouseState = Mouse.GetState();
+            var mousePosition = new Point(mouseState.X, mouseState.Y);
+
+            Rectangle Q1 = new Rectangle(400, 200, 300, 50);
+            Rectangle Q2 = new Rectangle(400, 250, 300, 50);
+
+            if (bClicked == true)
+            {
+                if (Q1.Contains(mousePosition))
+                {
+                    scriptreaderx = 0;
+                    scriptreadery = 0;
+                    eventname = ForkScript1;
+                    bQuestion = false;
+                }
+                if (Q2.Contains(mousePosition))
+                {
+                    scriptreaderx = 0;
+                    scriptreadery = 0;
+                    eventname = ForkSCript2;
+                    bQuestion = false;
+                }
+
+            }
         }
 
         protected void dayactions()
@@ -1076,6 +1123,7 @@ namespace TurtleSim_2000
             //set the script reader to the correct script
             if (scriptreadery == 0)
             {
+
                 while (MasterScript.Read(scriptreaderx, 0) != ename)
                 {
                     scriptreaderx++;
@@ -1096,7 +1144,7 @@ namespace TurtleSim_2000
                 
             }
             //var mouseState = Mouse.GetState();
-            if (bClicked == true)
+            if (bClicked == true && bQuestion == false)
             {
                 //fixfirstscripterror = false;
                 if (MasterScript.Read(scriptreaderx, scriptreadery + 1) != null)
@@ -1150,8 +1198,25 @@ namespace TurtleSim_2000
                         bMoveChar1 = true;
                         scriptreadery++;
                     }
+                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "Fork Question")
+                    {
+                        
+                        scriptreadery++;
+                        dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
+                        scriptreadery++;
+                        question1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                        scriptreadery++;
+                        ForkScript1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                        scriptreadery++;
+                        question2 = MasterScript.Read(scriptreaderx, scriptreadery);
+                        scriptreadery++;
+                        ForkSCript2 = MasterScript.Read(scriptreaderx, scriptreadery);
+                        scriptreadery++;
+                        bQuestion = true;
+                    }
 
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) != null) dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
+                    if (MasterScript.Read(scriptreaderx, scriptreadery) != null && bQuestion == false) dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
+                    
                 }
                 else
                 {

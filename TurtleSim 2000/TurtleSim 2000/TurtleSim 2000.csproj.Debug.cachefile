@@ -1,4 +1,3 @@
-Content\fonts\debugfont.xnb
 Content\assets\gui\gui_button_down.xnb
 Content\assets\gui\gui_button_up.xnb
 Content\assets\gui\tex_logo.xnb
@@ -17,12 +16,9 @@ Content\assets\gui\pgbar_fill_right_empty.xnb
 Content\assets\gui\pgbar_left_empty.xnb
 Content\assets\gui\pgbar_right_empty.xnb
 Content\assets\gui\messagebox.xnb
-Content\fonts\debugfontsmall.xnb
 Content\assets\gui\Logo_2.xnb
 Content\assets\gui\menu_action.xnb
 Content\assets\chara\emi\emicas_frown_close.xnb
-Content\fonts\speechfont.xnb
-Content\fonts\clockfont.xnb
 Content\assets\gui\clock.xnb
 Content\assets\gui\messagebox2.xnb
 Content\assets\chara\rin\rin_relaxed_doubt_pan.xnb
@@ -57,9 +53,13 @@ Content\assets\chara\emi\emicas_weaksmile_up.xnb
 Content\assets\chara\emi\emicas_wink.xnb
 Content\assets\chara\emi\emicas_wink_up.xnb
 Content\assets\backgrounds\school_cafeteria.xnb
-Content\assets\music\Ah_Eh_I_Oh_You.xnb
-Content\assets\music\Daylight.xnb
 Content\assets\gui\gui_button_selector.xnb
 Content\assets\gui\gui_button_A.xnb
+Content\fonts\debugfont.xnb
+Content\fonts\debugfontsmall.xnb
+Content\fonts\speechfont.xnb
+Content\fonts\clockfont.xnb
+Content\assets\music\Ah_Eh_I_Oh_You.xnb
+Content\assets\music\Daylight.xnb
 Content\assets\music\Ah_Eh_I_Oh_You.wma
 Content\assets\music\Daylight.wma

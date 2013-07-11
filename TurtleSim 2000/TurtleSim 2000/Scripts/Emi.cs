@@ -19,6 +19,7 @@ namespace TurtleSim_2000
         string music = "music";
         string music_stop = "music stop";
         string breakpage = "break";
+        string Fork = "Fork Question";
 
         //Ease of Formatting:
         //use these instead of escapes  Ex. (  emi + "dialogue",  )
@@ -94,6 +95,13 @@ namespace TurtleSim_2000
                                        emi + "I told you it always works.\"",
                                        "\"Emi and I start walking together.  She starts to pick up the pace and I\nslowly follow in suite.  Not so long after I start to get tired and say my\ngoodbye.\"",
                                        "\"She stops me and gives me and we exchange phone numbers real quick.",
+
+                                       Fork,
+                                       emi + "Do you want to go to the movies with me?\"",
+                                       "Uhh, sure.",
+                                       "emi_movies1",
+                                       "Not today, sorry.",
+                                       "walk_meetemi",
 
                                        charaevent_show_1,
                                        "emi/emicas_neutral",
@@ -204,7 +212,32 @@ namespace TurtleSim_2000
 
                                        "She kinda scares me.",
 
-                                       //breakpage,
+                                       //================================================================= Script 003 ===============================================
+
+                                       breakpage,
+
+                                       "emi_movies1",
+                                       
+                                       playername + ": \n\"" + "Uhh.. Sure.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_happy_up",
+
+                                       emi + "Really?  No one ever wants to go to the movies with me!\"",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_awayfrown",
+
+                                       emi + "You're not just teasing me are you?  The last time I got stood up I decked the \nguy right in his nose.\"",
+
+                                       playername + ": \n\"" + "No, I'm not trying to set you up.\"",
+
+                                       charaevent_show_1,
+                                       "emi_emicas_smile_up",
+
+                                       emi + "I'm glad you're not that kind of person.\"",
+
+                                       "I really don't want to go to the movies, there is never anything I want to\nwatch.  Oh well, at least there will be noise.",
 
                                        "!",
                                        "!"
