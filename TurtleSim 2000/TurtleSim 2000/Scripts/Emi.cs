@@ -49,8 +49,8 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_closedsmile",
 
-                                       music,
-                                       "Ah_Eh_I_Oh_You",
+                                       //music,
+                                       //"Ah_Eh_I_Oh_You",
 
                                        playername + ":\n\"Oh..  Uh..  It's " + playername + "\"",
 
@@ -101,7 +101,7 @@ namespace TurtleSim_2000
                                        "Uhh, sure.",
                                        "emi_movies1",
                                        "Not today, sorry.",
-                                       "walk_meetemi",
+                                       "emi_movies1_decline",
 
                                        charaevent_show_1,
                                        "emi/emicas_neutral",
@@ -228,14 +228,19 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_awayfrown",
 
-                                       emi + "You're not just teasing me are you?  The last time I got stood up I decked the \nguy right in his nose.\"",
+                                       emi + "You're not just teasing me are you?  The last time I got stood up I\ndecked the guy right in his nose.\"",
 
                                        playername + ": \n\"" + "No, I'm not trying to set you up.\"",
 
                                        charaevent_show_1,
-                                       "emi_emicas_smile_up",
+                                       "emi/emicas_smile_up",
 
                                        emi + "I'm glad you're not that kind of person.\"",
+
+                                       charaevent_exit,
+
+                                       bgchange,
+                                       "school_dormkenji",
 
                                        "I really don't want to go to the movies, there is never anything I want to\nwatch.  Oh well, at least there will be noise.",
 

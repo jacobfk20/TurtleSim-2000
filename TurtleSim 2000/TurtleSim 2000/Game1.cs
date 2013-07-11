@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 023) Alpha 0.3";
+        String GameInfo = "TurtleSim 2000 (Build 024) Alpha 0.3";
 
         //fonts
         SpriteFont debugfont;
@@ -720,27 +720,28 @@ namespace TurtleSim_2000
         //Question and Answer function
         protected void ForkQuestionDraw()
         {
-            spriteBatch.Draw(buttonup, new Rectangle(400, 220, 300, 50), Color.White);
+            spriteBatch.Draw(buttonup, new Rectangle(400, 220, 300, 40), Color.White);
             spriteBatch.DrawString(speechfont, question1, new Vector2(410, 225), Color.White);
-            spriteBatch.Draw(buttonup, new Rectangle(400, 280, 300, 50), Color.White);
+            spriteBatch.Draw(buttonup, new Rectangle(400, 280, 300, 40), Color.White);
             spriteBatch.DrawString(speechfont, question2, new Vector2(410, 285), Color.White);
         }
         protected void ForkQuestion()
         {
+                        if (bClicked == true)
+            {
             var mouseState = Mouse.GetState();
             var mousePosition = new Point(mouseState.X, mouseState.Y);
 
-            Rectangle Q1 = new Rectangle(400, 200, 300, 50);
-            Rectangle Q2 = new Rectangle(400, 250, 300, 50);
+            Rectangle Q1 = new Rectangle(400, 220, 300, 40);
+            Rectangle Q2 = new Rectangle(400, 280, 300, 40);
 
-            if (bClicked == true)
-            {
                 if (Q1.Contains(mousePosition))
                 {
+                    bQuestion = false;
+                    eventname = ForkScript1;
                     scriptreaderx = 0;
                     scriptreadery = 0;
-                    eventname = ForkScript1;
-                    bQuestion = false;
+                    //bQuestion = false;
                 }
                 if (Q2.Contains(mousePosition))
                 {
@@ -1124,6 +1125,8 @@ namespace TurtleSim_2000
             if (scriptreadery == 0)
             {
 
+                
+
                 while (MasterScript.Read(scriptreaderx, 0) != ename)
                 {
                     scriptreaderx++;
@@ -1344,7 +1347,7 @@ namespace TurtleSim_2000
             if (eventname == "sleep")
             {
                 addtime(800);
-                addenergy(20);
+                addenergy(30);
                 addfat(2);
             }
             if (eventname == "tv")
@@ -1384,7 +1387,7 @@ namespace TurtleSim_2000
                 addtime(200);
                 addenergy(-10);
                 addhp(-8);
-                addfat(-3);
+                addfat(-5);
                 addsocial(2);
                 //Meet Emi for first time triggered event.
                 if (Time >= 600 & Time <= 900)      //time between 6am to 9am is when you will meet emi
@@ -1409,7 +1412,7 @@ namespace TurtleSim_2000
             {
                 addtime(200);
                 addenergy(-10);
-                addhp(10);
+                addhp(30);
                 addfat(2);
                 addsocial(1);
                 if (sMetEmi == true & sEatEmi == false)
