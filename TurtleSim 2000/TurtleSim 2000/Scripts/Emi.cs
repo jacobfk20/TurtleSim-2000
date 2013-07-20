@@ -20,6 +20,7 @@ namespace TurtleSim_2000
         string music_stop = "music stop";
         string breakpage = "break";
         string Fork = "Fork Question";
+        string trigger = "switch";
 
         //Ease of Formatting:
         //use these instead of escapes  Ex. (  emi + "dialogue",  )
@@ -86,7 +87,18 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_pout",
 
-                                       "Oh god!  I was not prepared for that!  I can't turn that down!",
+                                       Fork,
+                                       "Oh god!  I was not prepared for that!  How can I turn that down?",
+                                       "Say sorry and walk with her",
+                                       "walk_meetemi_accept",
+                                       "Stutter words and run away.",
+                                       "walk_meetemi_decline",
+
+                                       //================================================MEETEMI-ACCEPT=============================================================
+                                       breakpage,
+
+                                       "walk_meetemi_accept",
+
                                        playername + ": \n\"Ok, we can walk together.\"",
 
                                        charaevent_show_1,
@@ -95,13 +107,6 @@ namespace TurtleSim_2000
                                        emi + "I told you it always works.\"",
                                        "\"Emi and I start walking together.  She starts to pick up the pace and I\nslowly follow in suite.  Not so long after I start to get tired and say my\ngoodbye.\"",
                                        "\"She stops me and gives me and we exchange phone numbers real quick.",
-
-                                       Fork,
-                                       emi + "Do you want to go to the movies with me?\"",
-                                       "Uhh, sure.",
-                                       "emi_movies1",
-                                       "Not today, sorry.",
-                                       "emi_movies1_decline",
 
                                        charaevent_show_1,
                                        "emi/emicas_neutral",
@@ -128,7 +133,84 @@ namespace TurtleSim_2000
 
                                        "Man what a day!",
 
-                                       //=============================================SCRIPT 002==================================================
+                                       //=============================================MEETEMI-DECLINE=============================================
+                                       breakpage,
+
+                                       "walk_meetemi_decline",
+
+                                       playername + ": \n\"I'MSorryButIHaveToGo!\"",
+
+                                       trigger,
+                                       "sMetEmi_badend",
+
+                                       "I start to turn around and run away but she grabs my hand just as I'm \nabout to escape her grasp.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_angry",
+
+                                       emi + "What is wrong with you?  Is it something I said?\"",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_frown",
+
+                                       emi + "Or do you really have something to go do..\"",
+                                       emi + "I'm sorry, you can go if you want to.",
+
+                                       "She looks as if she just did something horribly wrong.  Maybe I should say \nsomething.. but instead I continue on.",
+
+                                       charaevent_exit,
+
+                                       "I start to walk away and I hear her yell from a distance.",
+
+                                       charaevent_show_1,
+                                       "emi/emicas_smile",
+
+                                       emi + "If you want to walk with me some other time you know where to find me!",
+
+                                       charaevent_move_1,
+                                       "offleft",
+
+                                       "After she yelled from across the opening in the trees she heads off sprinting \nin the other direction.  I turn back around and head back to the dorms.",
+
+                                       bgchange,
+                                       "school_dormkenji",
+
+                                       "That was an awkward moment.",
+
+                                       charaevent_exit,
+
+                                       "I shure hope I don't run into her again.",
+
+                                       //============================================ Meeting Emi again (badend) =================================
+                                       breakpage,
+
+                                       "walk_meetemi_2",
+
+                                       "You get up and decide to go for a walk to lose some of that fat\n you keep gaining.",
+
+                                       bgchange,
+                                       "school_forest1",
+
+                                       "As I'm entering the wooded area where I tend to take my walks.  \nI spot someone else a bit further ahead.",
+                                       "I quickly realize it is Emi and I decide to head back in another \nDirection.  She doesn't seem to spot me this time.",
+                                       
+                                       bgchange,
+                                       "school_courtyard",
+
+                                       "I decide to walk around the main campus instead of my favorite spot.  \nNo one really seems to pay me any mind.",
+                                       "After about an hour of walking around I decide to head back to my dorm.",
+
+                                       bgchange,
+                                       "school_dormext_start",
+
+                                       "I though I just spotted Emi, so I quickly make it up to the front door.",
+                                       "After looking back I realize it was just an orange bush in the distance \nI feel slightly relieved, yet stupid at the same time.",
+
+                                       bgchange,
+                                       "school_dormkenji",
+
+
+                                       //============================================= Eat With Emi! ==================================================
                                        breakpage, 
 
                                        "eat_emi",

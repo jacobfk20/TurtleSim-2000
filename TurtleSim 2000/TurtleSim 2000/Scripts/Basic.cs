@@ -35,18 +35,6 @@ namespace TurtleSim_2000
                                       "I stumble into my bed and start to ponder..",
                                       "...Will I dream?",
 
-                                      charaevent_show_1,
-                                      "emi/emicas_pout",
-
-                                      charaevent_show_2,
-                                      "rin/rin_relaxed_doubt_pan",
-
-                                       "Emi\n\"Please come hang out with us.\"",
-
-                                       charaevent_exit,
-
-                                       "I have no idea if I should go or not..",
-
                                        breakpage,
                                       
                                        //--------------------------TV--------------------------
@@ -72,15 +60,6 @@ namespace TurtleSim_2000
                                       //------------------------PornTime------------------------
                                       "porn",
                                       "You finally decide it's time for some 'Me' time.  You grab open your\nlaptop, lay in bed and get down to work.  Dont' worry though,\nIt doesn't take long.",
-
-                                      charaevent_show_1,
-                                      "emi/emicas_blush",
-
-                                      "Emi: \n\"Oops, Oh my gosh!  I-I'm sorry!\"",
-
-                                      charaevent_exit,
-
-                                      "Well that was awkward...",
 
                                       breakpage,
                                       

@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 024) Alpha 0.3";
+        String GameInfo = "TurtleSim 2000 (Build 025) Alpha 0.31";
 
         //fonts
         SpriteFont debugfont;
@@ -103,6 +103,7 @@ namespace TurtleSim_2000
 
         //GAME STORY SWITCHES
         bool sMetEmi = false;      //First met emi, this will switch off that script from running
+        bool sMetEmi_badend = false;    //the player got a bad start with emi.
         bool sEatEmi = false;      //First time (almost) eating with Emi; switches script off
         
         //GAME STORY VARIABLES
@@ -725,6 +726,8 @@ namespace TurtleSim_2000
             spriteBatch.Draw(buttonup, new Rectangle(400, 280, 300, 40), Color.White);
             spriteBatch.DrawString(speechfont, question2, new Vector2(410, 285), Color.White);
         }
+
+        //Waits for player to answer, then sends answer to script
         protected void ForkQuestion()
         {
                         if (bClicked == true)
@@ -754,6 +757,7 @@ namespace TurtleSim_2000
             }
         }
 
+        //what class the player has during the day s/he is currently in
         protected void dayactions()
         {
 
@@ -1217,6 +1221,14 @@ namespace TurtleSim_2000
                         scriptreadery++;
                         bQuestion = true;
                     }
+                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "switch")
+                    {
+                        string trigger;
+                        scriptreadery++;
+                        trigger = MasterScript.Read(scriptreaderx, scriptreadery);
+                        scriptreadery++;
+                        StorySwitches(trigger);
+                    }
 
                     if (MasterScript.Read(scriptreaderx, scriptreadery) != null && bQuestion == false) dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
                     
@@ -1231,6 +1243,22 @@ namespace TurtleSim_2000
             }
             //if(script[scriptreaderx,scriptreadery] != null) dialouge = script[scriptreaderx, scriptreadery];
         }
+
+        //============================ STORY SWITCHES FROM SCRIPT ==========================
+        private void StorySwitches(string trigger)
+        {
+
+            if (trigger == "sMetEmi_badend")
+            {
+                sMetEmi_badend = true;
+                addsocial(-2);
+            }
+
+        }
+
+
+
+
         
         //Used to add time safely
         private void addtime(int v)
@@ -1390,7 +1418,7 @@ namespace TurtleSim_2000
                 addfat(-5);
                 addsocial(2);
                 //Meet Emi for first time triggered event.
-                if (Time >= 600 & Time <= 900)      //time between 6am to 9am is when you will meet emi
+                if (Time >= 600 & Time <= 900  || Time >= 1500 & Time <= 1900)      //time between 6am to 9am is when you will meet emi
                 {
                     if (sMetEmi == false)           //if you have already met her, you cannot get it again.
                     {
@@ -1401,6 +1429,11 @@ namespace TurtleSim_2000
                         addhp(-2);
                         addfat(-1);
                         sMetEmi = true;
+                    }
+                    if (sMetEmi_badend == true & sEatEmi == false)
+                    {
+                        eventname = "walk_meetemi_2";
+                        addtime(100);
                     }
                 }
             }
