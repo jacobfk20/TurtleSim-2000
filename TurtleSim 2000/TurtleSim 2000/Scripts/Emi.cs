@@ -50,8 +50,8 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_closedsmile",
 
-                                       //music,
-                                       //"Ah_Eh_I_Oh_You",
+                                       music,
+                                       "Afternoon",
 
                                        playername + ":\n\"Oh..  Uh..  It's " + playername + "\"",
 
@@ -61,15 +61,7 @@ namespace TurtleSim_2000
                                        emi + "Oh hello, " + playername + ".  My name is Emi!  I see you're out walking\naround and I though I would join you!\"",
                                        playername + ":\n\"Nah, I think I'm good, but thanks.\"",
 
-                                       charaevent_move_1,
-                                       "right",
-
                                        emi + "Oh don't be like that!  C'mon, It'll be fun!  I promise.\"",
-
-                                       charaevent_move_1,
-                                       "left",
-
-                                       "easy ass shit.",
 
                                        charaevent_show_1,
                                        "emi/emicas_wink",
@@ -87,6 +79,9 @@ namespace TurtleSim_2000
                                        charaevent_show_1,
                                        "emi/emicas_pout",
 
+                                       charaevent_move_1,
+                                       "left",
+
                                        Fork,
                                        "Oh god!  I was not prepared for that!  How can I turn that down?",
                                        "Say sorry and walk with her",
@@ -100,6 +95,9 @@ namespace TurtleSim_2000
                                        "walk_meetemi_accept",
 
                                        playername + ": \n\"Ok, we can walk together.\"",
+
+                                       charaevent_move_1,
+                                       "center",
 
                                        charaevent_show_1,
                                        "emi/emicas_happy_up",
@@ -130,6 +128,9 @@ namespace TurtleSim_2000
 
                                        bgchange,
                                        "school_dormkenji",
+
+                                       music,
+                                       "Daylight",
 
                                        "Man what a day!",
 
@@ -174,6 +175,9 @@ namespace TurtleSim_2000
 
                                        bgchange,
                                        "school_dormkenji",
+
+                                       music,
+                                       "Daylight",
 
                                        "That was an awkward moment.",
 
@@ -323,6 +327,9 @@ namespace TurtleSim_2000
 
                                        bgchange,
                                        "school_dormkenji",
+
+                                       music,
+                                       "Daylight",
 
                                        "I really don't want to go to the movies, there is never anything I want to\nwatch.  Oh well, at least there will be noise.",
 

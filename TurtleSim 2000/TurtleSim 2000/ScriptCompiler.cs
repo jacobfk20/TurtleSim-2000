@@ -11,6 +11,7 @@ namespace TurtleSim_2000
         string[,] MasterScript = new string[101, 500];
         Basic basic = new Basic();  //Declares all basic script pages
         Emi emi = new Emi();    //Declares Emi's script pages
+        Minor minor = new Minor();   //Declares all minor chara's pages
         int S;  //Script number
         int L;  //Line Number  (used to WRITE TO master)
         int _L;  //used to read FROM pages
@@ -51,6 +52,24 @@ namespace TurtleSim_2000
                 }
 
                 MasterScript[S, L] = emi.readline(_L);
+                L++;
+                _L++;
+            }
+
+            //compile Minor's Scripts into Master Script Book
+            _L = 0;
+            L = 0;
+            S++;
+            while (minor.readline(_L) != "!")
+            {
+                if (minor.readline(_L) == "break")
+                {
+                    _L++;
+                    L = 0;
+                    S++;
+                }
+
+                MasterScript[S, L] = minor.readline(_L);
                 L++;
                 _L++;
             }

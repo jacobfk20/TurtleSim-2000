@@ -70,6 +70,7 @@
     <Compile Include="ScriptCompiler.cs" />
     <Compile Include="Scripts\Basic.cs" />
     <Compile Include="Scripts\Emi.cs" />
+    <Compile Include="Scripts\Minor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Changelog.txt" />

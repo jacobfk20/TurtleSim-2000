@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 025) Alpha 0.31";
+        String GameInfo = "TurtleSim 2000 (Build 026) Alpha 0.31";
 
         //fonts
         SpriteFont debugfont;
@@ -83,6 +83,7 @@ namespace TurtleSim_2000
         bool bDorm = false;               //Tells the game that player is in the dorm room
         bool bMenu = false;               //Calls the main action select menu.
         bool bError = false;              //calls the ERROR textbox.  halts game.
+        bool bAddtime = false;            //tells the clock to add +1 time until it reached the set time by a variable
         bool bHud = false;                //will show the hud.  false will hide it
         bool bFirstrun = false;           //Sets the game up; only enable this to refresh all variables to default
         bool bShowtext = false;           //Tells the engine to show textbox and run through script
@@ -132,6 +133,8 @@ namespace TurtleSim_2000
         int Fat;                    //Fat
         int social;                 //Social (-antisocial / + popular)
         int Time = 1600;            //Time of Day (in 24 hour format; converts to 12.)
+        int TimeToAdd = 0;            //The variable that tells the clock what number to stop counting to.
+        int FakeTime = 0;           //a quick way to solve an issue; what the clock counter stops at.
         int Day = 1;                //Days that have passed. 
         int DayofWeek = 1;          //Day of the week (1-7; Gets converted to names)
         string weekday = "Monday";  //Named version of above int.
@@ -143,7 +146,7 @@ namespace TurtleSim_2000
 
         string playername = "Turtle";               //Default playername
 
-        string[,] script = new string[101,500];     //MasterScript string array; holds all scripts (old)
+        //string[,] script = new string[101,500];     //MasterScript string array; holds all scripts (old)
         string dialouge = "nothing to say";         //This pulls the dialouge from script and displays it.
         int scriptreaderx = 0;                      //ScriptReaderx tells what script to read from
         int scriptreadery = 0;                      //Scriptreadery tells what line to read from
@@ -299,13 +302,22 @@ namespace TurtleSim_2000
                 {
                     if (charadir1 == "right")
                     {
-                        if (charamove1 < 180) charamove1 += 4;
+                        if (charamove1 < 180)
+                        {
+                            charamove1 += 4;
+                        }
                         else bMoveChar1 = false;
                     }
                     if (charadir1 == "left")
                     {
                         if (charamove1 > -180) charamove1 -= 4;
                         else bMoveChar1 = false;
+                    }
+                    if (charadir1 == "center")
+                    {
+                        if (charamove1 < 0) charamove1 += 4;
+                        if (charamove1 > 0) charamove1 -= 4;
+                        if (charamove1 == 0) bMoveChar1 = false;
                     }
                     if (charadir1 == "offright")
                     {
@@ -472,6 +484,8 @@ namespace TurtleSim_2000
             }
 
             if (bQuestion == true) ForkQuestion();
+
+            if (bAddtime == true) addtime(0);
 
             if (chara1 != null) charamanager1 = Content.Load<Texture2D>("assets/chara/" + chara1 + "");
             if (chara2 != null) charamanager2 = Content.Load<Texture2D>("assets/chara/" + chara2 + "");
@@ -1123,6 +1137,7 @@ namespace TurtleSim_2000
         protected void textwindow(string ename)
         {
 
+            bool bReloop = true;
             ename = eventname;
 
             //set the script reader to the correct script
@@ -1157,78 +1172,83 @@ namespace TurtleSim_2000
                 if (MasterScript.Read(scriptreaderx, scriptreadery + 1) != null)
                 {
                     scriptreadery++;
+                    int loopis = 0;
+                    while (bReloop == true)
+                    {
+                        //intercept script action things here, so actions happen and are not displayed as dialogue.
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent show 1")
+                        {
+                            scriptreadery++;
+                            chara1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
 
-                    //intercept script action things here, so actions happen and are not displayed as dialogue.
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent show 1")
-                    {
-                        scriptreadery++;
-                        chara1 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent show 2")
+                        {
+                            scriptreadery++;
+                            chara2 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
 
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent show 2")
-                    {
-                        scriptreadery++;
-                        chara2 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent exit")
+                        {
+                            chara1 = null;
+                            chara2 = null;
+                            charamove1 = 0;
+                            charamove2 = 0;
+                            scriptreadery++;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "bgchange")
+                        {
+                            scriptreadery++;
+                            bg1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "gameover")
+                        {
+                            this.Exit();
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "music")
+                        {
+                            scriptreadery++;
+                            SetMusic = MasterScript.Read(scriptreaderx, scriptreadery);
+                            songstart = false;
+                            scriptreadery++;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent move 1")
+                        {
+                            scriptreadery++;
+                            charadir1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            bMoveChar1 = true;
+                            scriptreadery++;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "Fork Question")
+                        {
 
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent exit")
-                    {
-                        chara1 = null;
-                        chara2 = null;
-                        charamove1 = 0;
-                        charamove2 = 0;
-                        scriptreadery++;
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "bgchange")
-                    {
-                        scriptreadery++;
-                        bg1 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "gameover")
-                    {
-                        this.Exit();
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "music")
-                    {
-                        scriptreadery++;
-                        SetMusic = MasterScript.Read(scriptreaderx, scriptreadery);
-                        songstart = false;
-                        scriptreadery++;
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "charaevent move 1")
-                    {
-                        scriptreadery++;
-                        charadir1 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        bMoveChar1 = true;
-                        scriptreadery++;
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "Fork Question")
-                    {
-                        
-                        scriptreadery++;
-                        dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                        question1 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                        ForkScript1 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                        question2 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                        ForkSCript2 = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                        bQuestion = true;
-                    }
-                    if (MasterScript.Read(scriptreaderx, scriptreadery) == "switch")
-                    {
-                        string trigger;
-                        scriptreadery++;
-                        trigger = MasterScript.Read(scriptreaderx, scriptreadery);
-                        scriptreadery++;
-                        StorySwitches(trigger);
-                    }
+                            scriptreadery++;
+                            dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                            question1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                            ForkScript1 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                            question2 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                            ForkSCript2 = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                            bQuestion = true;
+                        }
+                        if (MasterScript.Read(scriptreaderx, scriptreadery) == "switch")
+                        {
+                            string trigger;
+                            scriptreadery++;
+                            trigger = MasterScript.Read(scriptreaderx, scriptreadery);
+                            scriptreadery++;
+                            StorySwitches(trigger);
+                        }
+                        if (loopis == 1) bReloop = false;
+                        loopis++;
+                }
 
                     if (MasterScript.Read(scriptreaderx, scriptreadery) != null && bQuestion == false) dialouge = MasterScript.Read(scriptreaderx, scriptreadery);
                     
@@ -1265,7 +1285,8 @@ namespace TurtleSim_2000
         {
 
             int oldt;
-
+            if (v >= 1)
+            {
                 if (Time + v > 2359)
                 {
                     oldt = Time + v - 2400;
@@ -1276,8 +1297,11 @@ namespace TurtleSim_2000
                 }
                 else
                 {
-                    Time += v;
+                    TimeToAdd += v;
+                    FakeTime += v + Time;
+                    bAddtime = true;
                 }
+
 
                 if (DayofWeek == 1) weekday = "Monday";
                 if (DayofWeek == 2) weekday = "Tuesday";
@@ -1286,7 +1310,21 @@ namespace TurtleSim_2000
                 if (DayofWeek == 5) weekday = "Friday";
                 if (DayofWeek == 6) weekday = "Saturday";
                 if (DayofWeek == 7) weekday = "Sunday";
+            }
+            else
+            {
+                if (Time >= FakeTime)
+                {
+                    TimeToAdd = 0;
+                    FakeTime = 0;
+                    bAddtime = false;
+                }
+                else
+                {
+                    Time += 10;
+                }
 
+            }
         }
 
         //formats time so it is readable and draws it

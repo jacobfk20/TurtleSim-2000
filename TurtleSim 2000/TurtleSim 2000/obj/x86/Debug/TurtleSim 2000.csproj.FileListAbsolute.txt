@@ -69,3 +69,76 @@ C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 20
 C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Daylight.wma
 C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_button_selector.xnb
 C:\Users\Jacob\Documents\Visual Studio 2010\Projects\TurtleSim 2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_button_A.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_button_down.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_button_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\tex_logo.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_classroomart.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_courtyard.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_dormbathroom.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_dormemi.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_dormext_start.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_dormkenji.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_forest1.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_gate.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\pgbar_center_empty.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\pgbar_fill_center_empty.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\pgbar_fill_left_empty.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\pgbar_fill_right_empty.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\pgbar_left_empty.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\pgbar_right_empty.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\messagebox.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\Logo_2.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\menu_action.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_frown_close.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\clock.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\messagebox2.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\rin\rin_relaxed_doubt_pan.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_angry.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_angry_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_awayfrown.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_awayfrown_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_blush.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_blush_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_closedsmile.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_closedsmile_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_evil.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_evil_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_frown.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_frown_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_grin.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_grin_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_grit.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_grit_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_happy.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_happy_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_neutral.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_neutral_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_pout.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_pout_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_sad.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_sad_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_smile.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_smile_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_weaksmile.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_weaksmile_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_wink.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\emi\emicas_wink_up.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_cafeteria.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_button_selector.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_button_A.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\fonts\debugfont.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\fonts\debugfontsmall.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\fonts\speechfont.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\fonts\clockfont.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Ah_Eh_I_Oh_You.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Daylight.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Ah_Eh_I_Oh_You.wma
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Daylight.wma
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\TurtleSim 2000.exe
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\TurtleSim 2000.pdb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\TurtleSim 2000.exe
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\TurtleSim 2000.pdb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Afternoon.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Afternoon.wma
