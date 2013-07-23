@@ -65,3 +65,4 @@ Content\assets\music\Daylight.xnb
 Content\assets\music\Daylight.wma
 Content\assets\music\Afternoon.xnb
 Content\assets\music\Afternoon.wma
+Content\assets\backgrounds\school_track.xnb

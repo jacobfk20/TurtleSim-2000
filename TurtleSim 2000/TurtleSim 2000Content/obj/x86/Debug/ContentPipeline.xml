@@ -580,6 +580,15 @@
       <Extra>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Afternoon.wma</Extra>
       <Time>2013-07-21T02:57:49.0146651-05:00</Time>
     </Item>
+    <Item>
+      <Source>assets\backgrounds\school_track.jpg</Source>
+      <Name>assets\backgrounds\school_track</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_track.xnb</Output>
+      <Time>2009-06-11T14:21:19.046875-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

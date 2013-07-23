@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 026) Alpha 0.31";
+        String GameInfo = "TurtleSim 2000 (Build 027) Alpha 0.31";
 
         //fonts
         SpriteFont debugfont;
