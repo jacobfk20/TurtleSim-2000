@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 027) Alpha 0.31";
+        String GameInfo = "TurtleSim 2000 (Build 028) Alpha 0.31";
 
         //fonts
         SpriteFont debugfont;
@@ -43,6 +43,7 @@ namespace TurtleSim_2000
         Texture2D clock_tex;
         Texture2D buttonselector;
         Texture2D ButtonA;
+        Texture2D homeworkAlert;
 
         //background textures
         Texture2D bg_manage;             //Background: ??
@@ -137,12 +138,14 @@ namespace TurtleSim_2000
         int FakeTime = 0;           //a quick way to solve an issue; what the clock counter stops at.
         int Day = 1;                //Days that have passed. 
         int DayofWeek = 1;          //Day of the week (1-7; Gets converted to names)
+        int FakeDayofWeek = 0;      //Used to make sure an event doesn't run twice in one day.
         string weekday = "Monday";  //Named version of above int.
         string s_class = "";                         //What class is happening today
         string s_class1 = "Ergonomics";              //First class slot
         string s_class2 = "Banana Boating 101";      //Second Class slot
         string s_class3 = "Advanced Shoe Tieing";    //Third Class slot
         int Turns = 0;              //How many actions the player has done in one game playthrough
+        int HomeworkAmount = 0;     //how much homework the player has to do.
 
         string playername = "Turtle";               //Default playername
 
@@ -219,6 +222,7 @@ namespace TurtleSim_2000
             action_menu = Content.Load<Texture2D>("assets/gui/menu_action");
             clock_tex = Content.Load<Texture2D>("assets/gui/clock");
             ButtonA = Content.Load<Texture2D>("assets/gui/gui_button_A");
+            homeworkAlert = Content.Load<Texture2D>("assets/gui/gui_homeworkelert");
 
             //GUI (Progress Bar)
             pgbar_center = Content.Load<Texture2D>("assets/gui/pgbar_center_empty");
@@ -810,6 +814,7 @@ namespace TurtleSim_2000
             spriteBatch.Draw(buttonup, new Rectangle(160 + actionmenuscroller, 380, 120, 30), Color.White);
             spriteBatch.Draw(buttonup, new Rectangle(30 + actionmenuscroller, 420, 120, 30), Color.White);
             spriteBatch.Draw(buttonup, new Rectangle(160 + actionmenuscroller, 420, 120, 30), Color.White);
+            if (HomeworkAmount >= 1 ) spriteBatch.Draw(homeworkAlert, new Rectangle(268 + actionmenuscroller, 296, 24, 24), Color.White);
 
             //Text on buttons
             spriteBatch.DrawString(debugfont, "Sleep", new Vector2(60 + actionmenuscroller, 221), Color.White);
@@ -818,6 +823,7 @@ namespace TurtleSim_2000
             spriteBatch.DrawString(debugfont, "Go Eat", new Vector2(188 + actionmenuscroller, 261), Color.White);
             spriteBatch.DrawString(debugfont, "Xbox", new Vector2(70 + actionmenuscroller, 301), Color.White);
             spriteBatch.DrawString(debugfont, "Homework", new Vector2(175 + actionmenuscroller, 301), Color.White);
+            if (HomeworkAmount >= 1) spriteBatch.DrawString(debugfontsmall, "" + HomeworkAmount, new Vector2(278 + actionmenuscroller, 301), Color.White);
             spriteBatch.DrawString(debugfont, "Write", new Vector2(62 + actionmenuscroller, 341), Color.White);
             spriteBatch.DrawString(debugfont, "Study", new Vector2(192 + actionmenuscroller, 341), Color.White);
             spriteBatch.DrawString(debugfont, "Music", new Vector2(63 + actionmenuscroller, 381), Color.White);
@@ -889,7 +895,7 @@ namespace TurtleSim_2000
                         if (button4.Contains(mousePosition))
                         {
                             bRunevent = true;
-                            eventname = "tv";
+                            eventname = "katawa";
                             bMenu = false;
                             bShowtext = true;
                         }
@@ -1410,6 +1416,26 @@ namespace TurtleSim_2000
             int R = 0;
             R = Rando.Next(5);
 
+            //do we need to add homework?
+            if (Time >= 1500)
+            {
+                if (DayofWeek == 1)
+                {
+                    if (FakeDayofWeek == 0) HomeworkAmount++;
+                    FakeDayofWeek = 1;
+                }
+                if (DayofWeek == 3)
+                {
+                    if (FakeDayofWeek == 1) HomeworkAmount++;
+                    FakeDayofWeek = 2;
+                }
+                if (DayofWeek == 5)
+                {
+                    if (FakeDayofWeek == 2) HomeworkAmount++;
+                    FakeDayofWeek = 0;
+                }
+            }
+
             if (eventname == "sleep")
             {
                 addtime(800);
@@ -1499,11 +1525,30 @@ namespace TurtleSim_2000
             }
             if (eventname == "homework")
             {
-                addtime(200);
-                addenergy(-5);
-                addhp(-2);
-                addfat(1);
-                addsocial(-1);
+                int timetoadd;
+
+                if (HomeworkAmount >= 1)
+                {
+
+                    timetoadd = HomeworkAmount * 100;
+                    if (timetoadd >= 500)
+                    {
+                        timetoadd = 500;
+                        addenergy(-5);
+                        addhp(-3);
+                        addfat(3);
+                    }
+
+                    addtime(200 + timetoadd);
+
+                    addenergy(-5);
+                    addhp(-2);
+                    addfat(1);
+                    addsocial(-1);
+
+                    HomeworkAmount = 0;
+                }
+                else eventname = "nohomework";
             }
             if (eventname == "study")
             {

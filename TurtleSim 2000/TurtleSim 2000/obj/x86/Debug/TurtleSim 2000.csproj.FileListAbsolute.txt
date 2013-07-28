@@ -142,3 +142,5 @@ C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj
 C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\TurtleSim 2000.pdb
 C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Afternoon.xnb
 C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\music\Afternoon.wma
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\backgrounds\school_track.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_homeworkelert.xnb
