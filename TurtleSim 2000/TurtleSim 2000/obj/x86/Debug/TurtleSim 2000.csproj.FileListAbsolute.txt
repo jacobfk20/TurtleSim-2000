@@ -144,3 +144,47 @@ C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin
 C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Anal Rape 2000.pdb
 C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\Anal Rape 2000.exe
 C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\obj\x86\Debug\Anal Rape 2000.pdb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_angry.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_angry_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_blush.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_blush_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_happy.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_happy_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_smug.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_smug_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_angry.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_angry_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_frown.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_frown_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_happy.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_happy_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal2.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal2_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_sparkle.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_sparkle_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_blank.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_blank_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frown.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frown_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frustrated.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frustrated_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_sad.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_sad_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_smile.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_smile_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_angry.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_angry_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rage.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rageclosed.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rageclosed_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rage_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_shock.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_shock_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_stunned.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_stunned_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_wut.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_wut_cas.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_missing.xnb
+C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_out_serious.xnb

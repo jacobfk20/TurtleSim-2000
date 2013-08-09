@@ -598,6 +598,402 @@
       <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\gui\gui_homeworkelert.xnb</Output>
       <Time>2013-07-27T20:56:49.5647781-05:00</Time>
     </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_angry.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_angry.xnb</Output>
+      <Time>2009-06-11T13:56:38.453125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_angry_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_angry_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_angry_cas.xnb</Output>
+      <Time>2009-06-11T13:57:42.21875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_blush.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_blush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_blush.xnb</Output>
+      <Time>2009-06-11T13:58:18.71875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_blush_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_blush_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_blush_cas.xnb</Output>
+      <Time>2009-06-11T13:55:41.09375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_happy.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_happy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_happy.xnb</Output>
+      <Time>2009-06-11T13:58:44.15625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_happy_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_happy_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_happy_cas.xnb</Output>
+      <Time>2009-06-11T13:56:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_smug.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_smug</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_smug.xnb</Output>
+      <Time>2009-06-11T13:58:07.703125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_adjust_smug_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_adjust_smug_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_adjust_smug_cas.xnb</Output>
+      <Time>2009-06-11T13:55:35.59375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_angry.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_angry.xnb</Output>
+      <Time>2009-06-11T13:56:07.171875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_angry_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_angry_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_angry_cas.xnb</Output>
+      <Time>2009-06-11T13:57:03.796875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_frown.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_frown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_frown.xnb</Output>
+      <Time>2009-06-11T13:58:49.171875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_frown_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_frown_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_frown_cas.xnb</Output>
+      <Time>2009-06-11T13:56:17.34375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_happy.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_happy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_happy.xnb</Output>
+      <Time>2009-06-11T13:57:57.609375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_happy_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_happy_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_happy_cas.xnb</Output>
+      <Time>2009-06-11T14:03:03.484375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_normal.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal.xnb</Output>
+      <Time>2009-06-11T13:58:33.96875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_normal2.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_normal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal2.xnb</Output>
+      <Time>2009-06-11T13:57:16.546875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_normal2_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_normal2_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal2_cas.xnb</Output>
+      <Time>2009-06-11T14:02:43.1875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_normal_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_normal_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_normal_cas.xnb</Output>
+      <Time>2009-06-11T13:55:51.265625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_sparkle.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_sparkle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_sparkle.xnb</Output>
+      <Time>2009-06-11T13:56:53.78125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_basic_sparkle_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_basic_sparkle_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_basic_sparkle_cas.xnb</Output>
+      <Time>2009-06-11T13:58:23.671875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_blank.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_blank.xnb</Output>
+      <Time>2009-06-11T13:56:48.53125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_blank_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_blank_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_blank_cas.xnb</Output>
+      <Time>2009-06-11T13:58:13.375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_frown.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_frown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frown.xnb</Output>
+      <Time>2009-06-11T13:56:58.8125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_frown_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_frown_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frown_cas.xnb</Output>
+      <Time>2009-06-11T13:58:38.84375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_frustrated.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_frustrated</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frustrated.xnb</Output>
+      <Time>2009-06-11T13:56:43.5-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_frustrated_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_frustrated_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_frustrated_cas.xnb</Output>
+      <Time>2009-06-11T13:58:02.359375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_sad.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_sad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_sad.xnb</Output>
+      <Time>2009-06-11T13:57:47.359375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_sad_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_sad_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_sad_cas.xnb</Output>
+      <Time>2009-06-11T14:02:48.171875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_smile.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_smile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_smile.xnb</Output>
+      <Time>2009-06-11T13:56:12.359375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_behind_smile_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_behind_smile_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_behind_smile_cas.xnb</Output>
+      <Time>2009-06-11T13:57:08.59375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_angry.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_angry.xnb</Output>
+      <Time>2009-06-11T13:56:27.953125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_angry_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_angry_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_angry_cas.xnb</Output>
+      <Time>2009-06-11T13:57:31.8125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_rage.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_rage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rage.xnb</Output>
+      <Time>2009-06-11T13:56:22.65625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_rageclosed.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_rageclosed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rageclosed.xnb</Output>
+      <Time>2009-06-11T13:57:52.578125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_rageclosed_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_rageclosed_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rageclosed_cas.xnb</Output>
+      <Time>2009-06-11T14:02:58.390625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_rage_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_rage_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_rage_cas.xnb</Output>
+      <Time>2009-06-11T13:57:21.75-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_shock.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_shock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_shock.xnb</Output>
+      <Time>2009-06-11T13:57:37.015625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_shock_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_shock_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_shock_cas.xnb</Output>
+      <Time>2009-06-11T14:02:53.265625-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_stunned.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_stunned</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_stunned.xnb</Output>
+      <Time>2009-06-11T13:56:33.09375-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_stunned_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_stunned_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_stunned_cas.xnb</Output>
+      <Time>2009-06-11T13:57:26.703125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_wut.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_wut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_wut.xnb</Output>
+      <Time>2009-06-11T13:58:28.921875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_cross_wut_cas.png</Source>
+      <Name>assets\chara\shizu\shizu_cross_wut_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_cross_wut_cas.xnb</Output>
+      <Time>2009-06-11T13:55:46.3125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_missing.png</Source>
+      <Name>assets\chara\shizu\shizu_missing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_missing.xnb</Output>
+      <Time>2009-06-11T13:57:11.421875-05:00</Time>
+    </Item>
+    <Item>
+      <Source>assets\chara\shizu\shizu_out_serious.png</Source>
+      <Name>assets\chara\shizu\shizu_out_serious</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob\Documents\GitHub\TurtleSim-2000\TurtleSim 2000\TurtleSim 2000\bin\x86\Debug\Content\assets\chara\shizu\shizu_out_serious.xnb</Output>
+      <Time>2009-06-11T13:55:56.703125-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

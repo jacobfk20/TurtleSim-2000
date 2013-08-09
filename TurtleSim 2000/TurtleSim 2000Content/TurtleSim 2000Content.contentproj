@@ -420,6 +420,228 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="assets\chara\shizu\shizu_adjust_angry.png">
+      <Name>shizu_adjust_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_angry_cas.png">
+      <Name>shizu_adjust_angry_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_blush.png">
+      <Name>shizu_adjust_blush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_blush_cas.png">
+      <Name>shizu_adjust_blush_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_happy.png">
+      <Name>shizu_adjust_happy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_happy_cas.png">
+      <Name>shizu_adjust_happy_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_smug.png">
+      <Name>shizu_adjust_smug</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_adjust_smug_cas.png">
+      <Name>shizu_adjust_smug_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_angry.png">
+      <Name>shizu_basic_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_angry_cas.png">
+      <Name>shizu_basic_angry_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_frown.png">
+      <Name>shizu_basic_frown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_frown_cas.png">
+      <Name>shizu_basic_frown_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_happy.png">
+      <Name>shizu_basic_happy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_happy_cas.png">
+      <Name>shizu_basic_happy_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_normal.png">
+      <Name>shizu_basic_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_normal2.png">
+      <Name>shizu_basic_normal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_normal2_cas.png">
+      <Name>shizu_basic_normal2_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_normal_cas.png">
+      <Name>shizu_basic_normal_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_sparkle.png">
+      <Name>shizu_basic_sparkle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_basic_sparkle_cas.png">
+      <Name>shizu_basic_sparkle_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_blank.png">
+      <Name>shizu_behind_blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_blank_cas.png">
+      <Name>shizu_behind_blank_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_frown.png">
+      <Name>shizu_behind_frown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_frown_cas.png">
+      <Name>shizu_behind_frown_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_frustrated.png">
+      <Name>shizu_behind_frustrated</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_frustrated_cas.png">
+      <Name>shizu_behind_frustrated_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_sad.png">
+      <Name>shizu_behind_sad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_sad_cas.png">
+      <Name>shizu_behind_sad_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_smile.png">
+      <Name>shizu_behind_smile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_behind_smile_cas.png">
+      <Name>shizu_behind_smile_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_angry.png">
+      <Name>shizu_cross_angry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_angry_cas.png">
+      <Name>shizu_cross_angry_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_rage.png">
+      <Name>shizu_cross_rage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_rageclosed.png">
+      <Name>shizu_cross_rageclosed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_rageclosed_cas.png">
+      <Name>shizu_cross_rageclosed_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_rage_cas.png">
+      <Name>shizu_cross_rage_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_shock.png">
+      <Name>shizu_cross_shock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_shock_cas.png">
+      <Name>shizu_cross_shock_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_stunned.png">
+      <Name>shizu_cross_stunned</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_stunned_cas.png">
+      <Name>shizu_cross_stunned_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_wut.png">
+      <Name>shizu_cross_wut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_cross_wut_cas.png">
+      <Name>shizu_cross_wut_cas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_missing.png">
+      <Name>shizu_missing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="assets\chara\shizu\shizu_out_serious.png">
+      <Name>shizu_out_serious</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
