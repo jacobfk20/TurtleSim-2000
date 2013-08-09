@@ -17,7 +17,7 @@ namespace TurtleSim_2000
     {
 
         //just for reference.  not really important
-        String GameInfo = "TurtleSim 2000 (Build 028) Alpha 0.31";
+        String GameInfo = "TurtleSim 2000 (Build 029) Alpha 0.35";
 
         //fonts
         SpriteFont debugfont;
@@ -102,6 +102,7 @@ namespace TurtleSim_2000
         bool bMoveChar2 = false;          //determins if we should move the chara
         bool fixfirstscripterror = true;  //helps patch up the "nothing to say" error at first event.
         bool bQuestion = false;           //If the player is being asked a question, this halts script reader from continueing.
+        bool bDebugmode = false;          //tells the game to run a certain script set by the developer on startup.
 
         //GAME STORY SWITCHES
         bool sMetEmi = false;      //First met emi, this will switch off that script from running
@@ -299,6 +300,7 @@ namespace TurtleSim_2000
 
             }
 
+
             //charamover logic
             if (bMoveChar1 == true)
             {
@@ -344,6 +346,18 @@ namespace TurtleSim_2000
                 frames = 0;
             }
 
+            if (bDebugmode == true)
+            {
+               // bShowtext = true;
+            }
+
+            //Tell the Author to close the game if in debug mode
+            if (bDebugmode == true && bShowtext == false)
+            {
+                ErrorReason = "You are in Debug Mode.  You cannot play the game normally like this. \nThis mode is for Authors to test their scripts.  Sorry.";
+                bError = true;
+            }
+
 
             //-------------------------- Controls (mouse and button actions) -----------------
 
@@ -353,6 +367,7 @@ namespace TurtleSim_2000
             //get mouse position.
             var mouseState = Mouse.GetState();
             var mousePosition = new Point(mouseState.X, mouseState.Y);
+            
 
             if (bGamePad == true)
             {
@@ -398,7 +413,7 @@ namespace TurtleSim_2000
             else
             {
                 if (GamePad.GetState(PlayerIndex.One).Buttons.Y == ButtonState.Pressed) Fat += 1;
-
+                
                 if (mouseState.LeftButton == ButtonState.Pressed) bclicking = true;
                 if (mouseState.LeftButton == ButtonState.Released & bclicking == true)
                 {
@@ -439,11 +454,22 @@ namespace TurtleSim_2000
 
                 //buttons to click
                 #region Button Controller
-                Rectangle button1 = new Rectangle(320, 280, 160, 40);
-                Rectangle button2 = new Rectangle(320, 200, 160, 40);
+                Rectangle button1 = new Rectangle(320, 280, 160, 40);     //Start button
+                Rectangle button2 = new Rectangle(320, 200, 160, 40);     //Quit button
+                Rectangle button3 = new Rectangle(280, 20, 164, 164);      //hidden debug button
 
                 if (bClicked == true)
                 {
+                    if (button3.Contains(mousePosition))
+                    {
+                        eventname = "debug";
+                        bDorm = true;
+                        bRunevent = true;
+                        bStart = false;
+                        bDebugmode = true;
+                        bShowtext = true;
+
+                    }
                     if (button1.Contains(mousePosition))
                     {
                         this.Exit();
@@ -525,13 +551,16 @@ namespace TurtleSim_2000
                 spriteBatch.Draw(bg_gate, new Rectangle(2400 - bgscroller, 0, 800, 480), Color.Gray);
 
                 //debug info
-                spriteBatch.DrawString(debugfont, "IT COMPILED! YAY!", new Vector2(20, 20), Color.White);
-                spriteBatch.DrawString(debugfontsmall, "Debug Font loaded.", new Vector2(20, 40), Color.White);
-                spriteBatch.DrawString(debugfontsmall, "Total Scripts found: " + totscripts, new Vector2(20, 50), Color.White);
-                spriteBatch.DrawString(debugfontsmall, "Random Script Line: " + MasterScript.Read(13,0), new Vector2(600, 20), Color.White);
-                spriteBatch.DrawString(debugfontsmall, GameInfo, new Vector2(530, 460), Color.White);
-                spriteBatch.DrawString(debugfontsmall, "Produced by Jacob Karleskint and Tclub Games", new Vector2(10, 460), Color.White);
-                
+                if (bDebugmode == true)
+                {
+                    spriteBatch.DrawString(debugfont, "IT COMPILED! YAY!", new Vector2(20, 20), Color.White);
+                    spriteBatch.DrawString(debugfontsmall, "Debug Font loaded.", new Vector2(20, 40), Color.White);
+                    spriteBatch.DrawString(debugfontsmall, "Total Scripts found: " + totscripts + "\nDEBUG MODE ENABLED.", new Vector2(20, 50), Color.White);
+                    spriteBatch.DrawString(debugfontsmall, "Random Script Line: " + MasterScript.Read(13, 0), new Vector2(600, 20), Color.White);
+                }
+                    spriteBatch.DrawString(debugfontsmall, GameInfo, new Vector2(530, 460), Color.White);
+                    spriteBatch.DrawString(debugfontsmall, "Produced by Jacob Karleskint and Tclub Games", new Vector2(10, 460), Color.White);
+
                 //menu buttons
                 spriteBatch.Draw(messagebox, new Rectangle(240, 0, 320, 180), Color.White);
                 spriteBatch.Draw(logo2, new Rectangle(240 - logoscaler, -20 - logoscaler, 320 + logoscaler + logoscaler, 250 + logoscaler + logoscaler), Color.White);
@@ -895,7 +924,7 @@ namespace TurtleSim_2000
                         if (button4.Contains(mousePosition))
                         {
                             bRunevent = true;
-                            eventname = "katawa";
+                            eventname = "tv";
                             bMenu = false;
                             bShowtext = true;
                         }

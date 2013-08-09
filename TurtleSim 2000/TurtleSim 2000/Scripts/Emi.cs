@@ -37,7 +37,7 @@ namespace TurtleSim_2000
         string readpage(int line)
         {
             string[] emipages = {
-                                   "walk_meetemi",
+                                   "debug",
                                        "You get up and decide to go for a walk to lose some of that fat\n you keep gaining.",
 
                                        bgchange,
@@ -332,6 +332,15 @@ namespace TurtleSim_2000
                                        "Daylight",
 
                                        "I really don't want to go to the movies, there is never anything I want to\nwatch.  Oh well, at least there will be noise.",
+
+                                       //==================================================== testing the debug script =========================
+
+                                       breakpage,
+
+                                       "deleteme",
+
+                                       "Turtle is a fagot.",
+                                       "No, really.",
 
                                        "!",
                                        "!"
